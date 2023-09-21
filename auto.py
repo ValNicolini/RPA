@@ -10,7 +10,7 @@ chrome_options.add_experimental_option("detach", True)
 service = Service(ChromeDriverManager().install())
 navegador = webdriver.Chrome(service=service, options=chrome_options)
 navegador.maximize_window()
-<<<<<<< HEAD
+
 navegador.get('https://www.cursoemvideo.com/')
 
 navegador.find_element('xpath', '//*[@id="menu-item-42376"]/a/span').click()
