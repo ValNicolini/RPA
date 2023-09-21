@@ -1,12 +1,8 @@
-# pip install pyautogui pillow mouseinfo
-# from mouseinfo import mouseInfo
-# mouseInfo()
 
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
-
 from time import sleep
 
 chrome_options = Options()
@@ -15,6 +11,7 @@ service = Service(ChromeDriverManager().install())
 navegador = webdriver.Chrome(service=service, options=chrome_options)
 navegador.maximize_window()
 navegador.get('https://www.cursoemvideo.com/')
+
 navegador.find_element('xpath', '//*[@id="menu-item-42376"]/a/span').click()
 navegador.execute_script("window.scrollTo(0, Y)")
 # navegador.find_element('xpath','//*[@id="post-42350"]/div/div[1]/div/div/div[2]/div/div[1]/div/div[3]/div/div/div/form/div[3]/input').send_keys('val_nicolini13@hotmail.com')
