@@ -1,4 +1,5 @@
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 # from webdriver_manager.chrome import ChromeDriverManager
 # from selenium.webdriver.chrome.options import Options
 # from selenium.webdriver.chrome.service import Service
@@ -16,26 +17,31 @@ navegador = webdriver.Firefox()
 
 
 
-# def teste(x):
-#     #espera satisfazer as condições
-#     return WebDriverWait(navegador, 10).until(EC.presence_of_element_located(('xpath', x)))
+def teste(x):
+     #espera satisfazer as condições
+     return WebDriverWait(navegador, 10).until(EC.presence_of_element_located(('xpath', x)))
 
 
 def busca(y):
-    return navegador.find_element('xpath', y)
+     return navegador.find_element('xpath', y)
 
 
 
-navegador.get('https://sistema.hcosta.com.br/hcosta/index.php')
+navegador.get('https://www.hashtagtreinamentos.com/curso-python')
 #navegador.maximize_window()
+lista = navegador.find_elements(By.XPATH, '//*[@id="firstname"]')
 
-# teste('//*[@id="nome"]')
-busca('//*[//*[@id="nome"]').send_keys('silva.valdenir')
+busca((lista[1]).send_keys('Val'))
 
 #teste('//*[@id="senha"]')
-busca('//*[@id="senha"]').send_keys('Nico@123')
-busca('//*[@id="botao_aceitar"]').click()
+#busca('//*[@id="senha"]').send_keys('Nico@123')
+#busca('//*[@id="botao_aceitar"]').click()
 
 # sleep(2)
 # navegador.quit()
+
+
+
+
+
 

@@ -317,3 +317,943 @@ DevTools listening on ws://127.0.0.1:56348/devtools/browser/ff425105-df11-4878-8
 JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
 1697155520397	Marionette	INFO	Stopped listening on port 56353
 Dynamically enable window occlusion 1
+1697401878536	geckodriver	INFO	Listening on 127.0.0.1:56741
+1697401878906	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56742" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileQjKhNN"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697401879525	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697401879783	Marionette	INFO	Listening on port 56748
+WebDriver BiDi listening on ws://127.0.0.1:56742
+Read port: 56748
+1697401880351	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56742/devtools/browser/6166750a-1acf-4598-a8f3-75cb1ee75ad6
+console.error: ({})
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854:1:11936
+t@https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854:1:11797
+
+1697401888417	Marionette	INFO	Stopped listening on port 56748
+Dynamically enable window occlusion 1
+1697403052116	geckodriver	INFO	Listening on 127.0.0.1:57017
+1697403052598	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57018" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileNfTjuK"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697403053361	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697403053486	Marionette	INFO	Listening on port 57024
+WebDriver BiDi listening on ws://127.0.0.1:57018
+Read port: 57024
+1697403053853	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57018/devtools/browser/7ec14a2a-e1bb-485e-bf3f-960b11b6c43c
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1697403128377	Marionette	INFO	Stopped listening on port 57024
+Dynamically enable window occlusion 1
+1697403239589	geckodriver	INFO	Listening on 127.0.0.1:57101
+1697403240075	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57102" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofile9tiCBp"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697403240752	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697403240895	Marionette	INFO	Listening on port 57107
+Read port: 57107
+WebDriver BiDi listening on ws://127.0.0.1:57102
+1697403241044	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57102/devtools/browser/0bf52bf8-f730-4c7c-913b-1070cb7acf0d
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1, line 461: Script terminated by timeout at:
+aa.nh@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:461:89
+get@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:459:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:459:87
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:459:412
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1697403348526	Marionette	INFO	Stopped listening on port 57107
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+1697403349570	WebDriver BiDi	ERROR	Failed to stop protocol: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 51"  data: no] Stack trace: allowAllCerts.disable()@cert.sys.mjs:51
+destroy()@Session.sys.mjs:239
+deleteSession()@WebDriverBiDi.sys.mjs:140
+stop()@WebDriverBiDi.sys.mjs:228
+observe()@resource://gre/modules/AsyncShutdown.sys.mjs:573
+console.error: (new Error("Data is not ready.", "resource://gre/modules/JSONFile.sys.mjs", 178))
+1697403358375	geckodriver	INFO	Listening on 127.0.0.1:57173
+1697403358791	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57174" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofilesSYhqY"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697403359279	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697403359404	Marionette	INFO	Listening on port 57183
+WebDriver BiDi listening on ws://127.0.0.1:57174
+Read port: 57183
+1697403359907	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57174/devtools/browser/c6e1c2ba-59a5-41ee-9e73-8068c396541d
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1, line 388: Script terminated by timeout at:
+Zv.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:388:62
+oF/<@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:508:117
+aa.uk/<@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:460:126
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:459:420
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1697403433805	Marionette	INFO	Stopped listening on port 57183
+Dynamically enable window occlusion 1
+1697403438355	geckodriver	INFO	Listening on 127.0.0.1:57247
+1697403438754	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57248" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileuPBO7z"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697403439409	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697403439538	Marionette	INFO	Listening on port 57253
+WebDriver BiDi listening on ws://127.0.0.1:57248
+Read port: 57253
+1697403440025	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57248/devtools/browser/b6b561d1-9714-41a6-a36a-ae7f6a783f23
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1, line 461: Script terminated by timeout at:
+aa.nh@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:461:89
+get@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:459:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:459:87
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:459:412
+
+1697403458473	Marionette	INFO	Stopped listening on port 57253
+Dynamically enable window occlusion 1
+1697403516878	geckodriver	INFO	Listening on 127.0.0.1:57310
+1697403517351	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57311" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileJYQtwB"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697403518009	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697403518131	Marionette	INFO	Listening on port 57316
+WebDriver BiDi listening on ws://127.0.0.1:57311
+Read port: 57316
+Read port: 57316
+Read port: 57316
+1697403522496	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57311/devtools/browser/c32225d2-c226-4f23-8054-e2627c3183ba
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1, line 461: Script terminated by timeout at:
+aa.nh@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:461:42
+get@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:459:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:459:87
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:459:412
+
+1697403557046	Marionette	INFO	Stopped listening on port 57316
+Dynamically enable window occlusion 1
+1697403591012	geckodriver	INFO	Listening on 127.0.0.1:57380
+1697403591506	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57381" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofiletXl8nC"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697403592202	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697403592406	Marionette	INFO	Listening on port 57388
+WebDriver BiDi listening on ws://127.0.0.1:57381
+Read port: 57388
+1697403593121	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57381/devtools/browser/09f1ba05-ad57-42c0-a251-aad98dc0e8e9
+1697403687349	Marionette	INFO	Stopped listening on port 57388
+Dynamically enable window occlusion 1
+1697403752269	geckodriver	INFO	Listening on 127.0.0.1:57485
+1697403752728	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57486" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofile6XDdHD"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697403753485	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697403753670	Marionette	INFO	Listening on port 57491
+WebDriver BiDi listening on ws://127.0.0.1:57486
+Read port: 57491
+1697403754122	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57486/devtools/browser/4294b419-a1c3-47b3-ab38-a8b631f92272
+1697403816996	Marionette	INFO	Stopped listening on port 57491
+Dynamically enable window occlusion 1
+1697403836904	geckodriver	INFO	Listening on 127.0.0.1:57557
+1697403837312	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57558" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileC09UqC"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697403837881	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697403838015	Marionette	INFO	Listening on port 57563
+WebDriver BiDi listening on ws://127.0.0.1:57558
+Read port: 57563
+1697403838712	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57558/devtools/browser/2b75e1ea-da1b-4533-8013-0e92493cf776
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://portal.hcosta.com.br."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1, line 461: Script terminated by timeout at:
+aa.nh@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:461:89
+get@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:459:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:459:87
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:459:412
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1697403883167	Marionette	INFO	Stopped listening on port 57563
+Dynamically enable window occlusion 1
+1697403913754	geckodriver	INFO	Listening on 127.0.0.1:57630
+1697403914156	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57631" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofilem5tk0o"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697403914925	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697403915059	Marionette	INFO	Listening on port 57636
+WebDriver BiDi listening on ws://127.0.0.1:57631
+Read port: 57636
+1697403915442	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57631/devtools/browser/fba24f00-e022-4814-9ead-e469326b8454
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1, line 127: Script terminated by timeout at:
+Qa@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:127:437
+Wo@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:344:423
+Sv@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:384:411
+oF/<@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:508:153
+aa.uk/<@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:460:126
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:459:420
+
+1697403932817	Marionette	INFO	Stopped listening on port 57636
+Dynamically enable window occlusion 1
+1697403936388	geckodriver	INFO	Listening on 127.0.0.1:57685
+1697403936787	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57686" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileS4tUC5"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697403937451	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697403937580	Marionette	INFO	Listening on port 57694
+WebDriver BiDi listening on ws://127.0.0.1:57686
+Read port: 57694
+1697403938171	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57686/devtools/browser/18949172-7247-4fd2-b9c2-828ea2b70a98
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1, line 508: Script terminated by timeout at:
+oF/<@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:508:117
+aa.uk/<@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:460:126
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:459:420
+
+1697403959971	Marionette	INFO	Stopped listening on port 57694
+Dynamically enable window occlusion 1
+1697403987381	geckodriver	INFO	Listening on 127.0.0.1:57764
+1697403987885	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57765" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileBnYg1H"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697403988727	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697403988943	Marionette	INFO	Listening on port 57771
+WebDriver BiDi listening on ws://127.0.0.1:57765
+Read port: 57771
+1697403989639	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57765/devtools/browser/dc642cf5-0cb9-4099-b5c6-03c6ddac9690
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1, line 461: Script terminated by timeout at:
+aa.nh@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:461:89
+get@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:459:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:459:87
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:459:412
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1697404125321	Marionette	INFO	Stopped listening on port 57771
+Dynamically enable window occlusion 1
+1697404204380	geckodriver	INFO	Listening on 127.0.0.1:57861
+1697404204887	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57862" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofile3aswwb"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697404205628	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697404205760	Marionette	INFO	Listening on port 57868
+Read port: 57868
+WebDriver BiDi listening on ws://127.0.0.1:57862
+1697404205849	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57862/devtools/browser/d24ca75d-9e6a-482d-b363-b36ce78303b3
+1697404228406	Marionette	INFO	Stopped listening on port 57868
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+console.error: (new Error("Data is not ready.", "resource://gre/modules/JSONFile.sys.mjs", 178))
+1697404228797	WebDriver BiDi	ERROR	Failed to stop protocol: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 51"  data: no] Stack trace: allowAllCerts.disable()@cert.sys.mjs:51
+destroy()@Session.sys.mjs:239
+deleteSession()@WebDriverBiDi.sys.mjs:140
+stop()@WebDriverBiDi.sys.mjs:228
+observe()@resource://gre/modules/AsyncShutdown.sys.mjs:573
+1697404292464	geckodriver	INFO	Listening on 127.0.0.1:57944
+1697404292936	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57945" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileqOfGa9"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697404293291	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697404293471	Marionette	INFO	Listening on port 57950
+Read port: 57950
+WebDriver BiDi listening on ws://127.0.0.1:57945
+1697404293702	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57945/devtools/browser/7e0ba7a4-aae5-4f6a-9088-917e32a2d41a
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1, line 344: Script terminated by timeout at:
+Wo@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:344:718
+Sv@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:384:411
+oF/<@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:508:153
+aa.uk/<@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:460:126
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-70G1E8MYVV&cx=c&_slc=1:459:420
+
+1697404306874	Marionette	INFO	Stopped listening on port 57950
+Dynamically enable window occlusion 1
+1697404566905	geckodriver	INFO	Listening on 127.0.0.1:58121
+1697404567322	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58122" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileCOjH9f"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697404567902	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697404568063	Marionette	INFO	Listening on port 58127
+Read port: 58127
+WebDriver BiDi listening on ws://127.0.0.1:58122
+1697404568202	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58122/devtools/browser/a841b8b8-2be2-413b-97a2-3f37be84c2cd
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+1697406236720	Marionette	INFO	Stopped listening on port 58127
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58210" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofilespSiCd"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697404774895	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697404775033	Marionette	INFO	Listening on port 58216
+WebDriver BiDi listening on ws://127.0.0.1:58210
+Read port: 58216
+1697404775366	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58210/devtools/browser/ba54a769-e2e5-4de2-88a9-93c099184a59
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+1697406228932	Marionette	INFO	Stopped listening on port 58216
+Dynamically enable window occlusion 1
+1697406750335	geckodriver	INFO	Listening on 127.0.0.1:58582
+1697406750843	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58583" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileqgKftt"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697406751200	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697406751313	Marionette	INFO	Listening on port 58589
+WebDriver BiDi listening on ws://127.0.0.1:58583
+Read port: 58589
+1697406751646	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58583/devtools/browser/e28073c3-87b0-4153-99f9-f3fa0e1d6b98
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c, line 152: Script terminated by timeout at:
+k@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:152:184
+Wo@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:370:416
+Sv@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:415:411
+oF/<@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:556:153
+aa.uk/<@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:508:126
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:420
+
+1697407456855	Marionette	INFO	Stopped listening on port 58589
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1697407456910	WebDriver BiDi	ERROR	Failed to stop protocol: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 51"  data: no] Stack trace: allowAllCerts.disable()@cert.sys.mjs:51
+destroy()@Session.sys.mjs:239
+deleteSession()@WebDriverBiDi.sys.mjs:140
+stop()@WebDriverBiDi.sys.mjs:228
+c:507:412
+
+1697407444722	Marionette	INFO	Stopped listening on port 58686
+Dynamically enable window occlusion 1
+nvironment
+1697407018410	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697407018534	Marionette	INFO	Listening on port 58771
+WebDriver BiDi listening on ws://127.0.0.1:58766
+Read port: 58771
+1697407018844	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58766/devtools/browser/3d1b3545-c8bb-4ff9-806b-725513235166
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:66516
+
+1697407042599	Marionette	INFO	Stopped listening on port 58771
+Dynamically enable window occlusion 1
+1697407158442	geckodriver	INFO	Listening on 127.0.0.1:58836
+1697407158917	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58837" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileO7SjVu"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697407159271	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697407159398	Marionette	INFO	Listening on port 58842
+WebDriver BiDi listening on ws://127.0.0.1:58837
+Read port: 58842
+1697407159696	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58837/devtools/browser/cd13d742-335a-4f42-8ec2-c908884f2753
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:66516
+
+1697407451128	Marionette	INFO	Stopped listening on port 58842
+Dynamically enable window occlusion 1
+hjOHM"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697407208298	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697407208415	Marionette	INFO	Listening on port 58911
+WebDriver BiDi listening on ws://127.0.0.1:58906
+Read port: 58911
+1697407208756	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58906/devtools/browser/88c217cd-8e36-4735-82c4-b84bd8d5edd6
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:66516
+
+1697407453036	Marionette	INFO	Stopped listening on port 58911
+Dynamically enable window occlusion 1
+1697407516646	geckodriver	INFO	Listening on 127.0.0.1:59065
+1697407517123	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59066" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofile2Huoac"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697407517461	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697407517577	Marionette	INFO	Listening on port 59072
+WebDriver BiDi listening on ws://127.0.0.1:59066
+Read port: 59072
+1697407517895	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59066/devtools/browser/15efda59-713c-4ef4-b1ea-2c862b091ada
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c, line 509: Script terminated by timeout at:
+aa.nh@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:509:89
+get@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:87
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:412
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1697408541545	Marionette	INFO	Stopped listening on port 59072
+Dynamically enable window occlusion 1
+-8VXCNB69RS&l=dataLayer&cx=c:507:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:87
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:412
+
+1697408536028	Marionette	INFO	Stopped listening on port 55330
+Dynamically enable window occlusion 1
+1697408544714	geckodriver	INFO	Listening on 127.0.0.1:55406
+1697408545219	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55407" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofilecVgRqI"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697408545568	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697408545683	Marionette	INFO	Listening on port 55412
+WebDriver BiDi listening on ws://127.0.0.1:55407
+Read port: 55412
+1697408546014	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55407/devtools/browser/96ec58c9-9275-4110-9628-4d57dae424c1
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:66516
+
+1697409165856	Marionette	INFO	Stopped listening on port 55412
+Dynamically enable window occlusion 1
+vFXPp"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697408648005	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697408648137	Marionette	INFO	Listening on port 55513
+WebDriver BiDi listening on ws://127.0.0.1:55508
+Read port: 55513
+1697408648459	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55508/devtools/browser/d29b9580-7472-4b97-ab19-928a133609d4
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:66516
+
+1697409167500	Marionette	INFO	Stopped listening on port 55513
+Dynamically enable window occlusion 1
+4UO65"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697408898176	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697408898290	Marionette	INFO	Listening on port 55715
+WebDriver BiDi listening on ws://127.0.0.1:55710
+Read port: 55715
+1697408898642	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55710/devtools/browser/7ea5bb4e-f348-4e78-a3ed-0e7762177138
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:66516
+
+1697409169115	Marionette	INFO	Stopped listening on port 55715
+Dynamically enable window occlusion 1
+Xt6d4"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697408989100	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697408989213	Marionette	INFO	Listening on port 55810
+WebDriver BiDi listening on ws://127.0.0.1:55805
+Read port: 55810
+1697408989841	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55805/devtools/browser/2e414593-b3bb-4d0c-acda-dbfbf7b5a146
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c, line 153: Script terminated by timeout at:
+Qa@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:153:437
+Wo@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:370:423
+Sv@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:415:411
+oF/<@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:556:153
+aa.uk/<@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:508:126
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:420
+
+1697409170913	Marionette	INFO	Stopped listening on port 55810
+Dynamically enable window occlusion 1
+1697409202688	geckodriver	INFO	Listening on 127.0.0.1:55919
+1697409203193	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55920" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofilexMdo9T"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697409203583	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697409203717	Marionette	INFO	Listening on port 55925
+WebDriver BiDi listening on ws://127.0.0.1:55920
+Read port: 55925
+1697409203887	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55920/devtools/browser/b07223f5-ff8e-4176-844f-ca2af6da3ba0
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c, line 509: Script terminated by timeout at:
+aa.nh@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:509:42
+get@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:87
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:412
+
+1697409545018	Marionette	INFO	Stopped listening on port 55925
+Dynamically enable window occlusion 1
+nvironment
+1697409408664	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697409408787	Marionette	INFO	Listening on port 56026
+WebDriver BiDi listening on ws://127.0.0.1:56021
+Read port: 56026
+1697409409099	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56021/devtools/browser/4b45e2bd-9d5b-4b3e-98f8-9011faafdb45
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c, line 509: Script terminated by timeout at:
+aa.nh@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:509:42
+get@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:87
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:412
+
+1697409528165	Marionette	INFO	Stopped listening on port 56026
+Dynamically enable window occlusion 1
+nvironment
+1697409494512	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697409494643	Marionette	INFO	Listening on port 56098
+WebDriver BiDi listening on ws://127.0.0.1:56093
+Read port: 56098
+1697409495009	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56093/devtools/browser/d94e439d-28de-414a-b6d2-9b1443037165
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c, line 509: Script terminated by timeout at:
+aa.nh@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:509:42
+get@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:87
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:412
+
+1697409537446	Marionette	INFO	Stopped listening on port 56098
+Dynamically enable window occlusion 1
+1697409559027	geckodriver	INFO	Listening on 127.0.0.1:56162
+1697409559512	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56163" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofilehhCXR9"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697409559885	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697409560001	Marionette	INFO	Listening on port 56168
+WebDriver BiDi listening on ws://127.0.0.1:56163
+Read port: 56168
+1697409560328	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56163/devtools/browser/d414b326-dab9-4523-98c1-1803688f446d
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c, line 509: Script terminated by timeout at:
+aa.nh@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:509:42
+get@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:87
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:412
+
+1697409866677	Marionette	INFO	Stopped listening on port 56168
+Dynamically enable window occlusion 1
+nvironment
+1697409717048	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697409717162	Marionette	INFO	Listening on port 56249
+WebDriver BiDi listening on ws://127.0.0.1:56244
+Read port: 56249
+1697409717496	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56244/devtools/browser/b939a0be-f88d-4cc4-bad4-7a52a18db400
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+1697409870291	Marionette	INFO	Stopped listening on port 56249
+Dynamically enable window occlusion 1
+1697409874009	geckodriver	INFO	Listening on 127.0.0.1:56325
+1697409874519	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56326" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofilerzak1M"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697409874883	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697409875005	Marionette	INFO	Listening on port 56331
+WebDriver BiDi listening on ws://127.0.0.1:56326
+Read port: 56331
+1697409875347	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56326/devtools/browser/6dbd6274-b4a0-42cc-8cc0-1e5b26fb7eb8
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:66516
+
+1697409899354	Marionette	INFO	Stopped listening on port 56331
+Dynamically enable window occlusion 1
+1697409988770	geckodriver	INFO	Listening on 127.0.0.1:56395
+1697409989250	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56396" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofilezfmceJ"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697409989616	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697409989729	Marionette	INFO	Listening on port 56401
+WebDriver BiDi listening on ws://127.0.0.1:56396
+Read port: 56401
+1697409990171	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56396/devtools/browser/0720630b-37c4-4a1a-882b-a03f11f100f6
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:66516
+
+1697410012910	Marionette	INFO	Stopped listening on port 56401
+Dynamically enable window occlusion 1
+1697410205409	geckodriver	INFO	Listening on 127.0.0.1:56482
+1697410205874	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56483" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileeBviwH"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697410206218	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697410206335	Marionette	INFO	Listening on port 56488
+WebDriver BiDi listening on ws://127.0.0.1:56483
+Read port: 56488
+1697410206677	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56483/devtools/browser/490b8836-1e95-4f3c-92a0-ea012bc2891f
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:66516
+
+1697411311823	Marionette	INFO	Stopped listening on port 56488
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+1697411311881	WebDriver BiDi	ERROR	Failed to stop protocol: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 51"  data: no] Stack trace: allowAllCerts.disable()@cert.sys.mjs:51
+destroy()@Session.sys.mjs:239
+deleteSession()@WebDriverBiDi.sys.mjs:140
+stop()@WebDriverBiDi.sys.mjs:228
+er.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c, line 509: Script terminated by timeout at:
+aa.nh@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:509:42
+get@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:87
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:412
+
+1697410295413	Marionette	INFO	Stopped listening on port 56580
+Dynamically enable window occlusion 1
+1697410331683	geckodriver	INFO	Listening on 127.0.0.1:56643
+1697410332170	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56644" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofile6WWggg"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697410332502	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697410332622	Marionette	INFO	Listening on port 56649
+WebDriver BiDi listening on ws://127.0.0.1:56644
+Read port: 56649
+1697410333139	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56644/devtools/browser/4bb95e5b-f174-41b2-ad9f-805f1408e93b
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+1697410347960	Marionette	INFO	Stopped listening on port 56649
+Dynamically enable window occlusion 1
+1697410360051	geckodriver	INFO	Listening on 127.0.0.1:56709
+1697410360534	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56710" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofile7sDcuG"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697410361297	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697410361413	Marionette	INFO	Listening on port 56716
+WebDriver BiDi listening on ws://127.0.0.1:56710
+Read port: 56716
+1697410363607	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56710/devtools/browser/04780c18-604e-4175-8938-381ced9ff664
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+1697410379899	Marionette	INFO	Stopped listening on port 56716
+Dynamically enable window occlusion 1
+1697410422172	geckodriver	INFO	Listening on 127.0.0.1:56781
+1697410422646	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56782" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileUlYRCL"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697410422974	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697410423087	Marionette	INFO	Listening on port 56787
+WebDriver BiDi listening on ws://127.0.0.1:56782
+Read port: 56787
+1697410423449	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56782/devtools/browser/c8709d5a-5bc1-431c-9cfd-772909d9be73
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c, line 509: Script terminated by timeout at:
+aa.nh@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:509:42
+get@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:87
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:412
+
+1697410439792	Marionette	INFO	Stopped listening on port 56787
+Dynamically enable window occlusion 1
+1697410501951	geckodriver	INFO	Listening on 127.0.0.1:56851
+1697410502422	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56852" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileyGPyQ2"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697410502743	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697410502871	Marionette	INFO	Listening on port 56857
+WebDriver BiDi listening on ws://127.0.0.1:56852
+Read port: 56857
+1697410503238	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56852/devtools/browser/b657da3f-0dae-4569-9e0e-58fad7c06338
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:66516
+
+1697410519141	Marionette	INFO	Stopped listening on port 56857
+Dynamically enable window occlusion 1
+1697410576008	geckodriver	INFO	Listening on 127.0.0.1:56923
+1697410576486	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56924" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofilevggkwv"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697410576831	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697410576946	Marionette	INFO	Listening on port 56929
+WebDriver BiDi listening on ws://127.0.0.1:56924
+Read port: 56929
+1697410577266	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56924/devtools/browser/58932ec1-6230-492d-915d-7189fe461b56
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c, line 509: Script terminated by timeout at:
+aa.nh@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:509:42
+get@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:87
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:412
+
+1697410588285	Marionette	INFO	Stopped listening on port 56929
+Dynamically enable window occlusion 1
+1697410613838	geckodriver	INFO	Listening on 127.0.0.1:56987
+1697410614334	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56988" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofilegjmhCh"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697410614707	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697410614821	Marionette	INFO	Listening on port 56995
+WebDriver BiDi listening on ws://127.0.0.1:56988
+Read port: 
+1697410614974	geckodriver::browser	WARN	Failed fo convert  to u16
+Read port: 56995
+1697410616320	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56988/devtools/browser/87409550-a233-4ac9-afb4-42cb1f0e4c99
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+1697410627378	Marionette	INFO	Stopped listening on port 56995
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1697410627671	WebDriver BiDi	ERROR	Failed to stop protocol: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 51"  data: no] Stack trace: allowAllCerts.disable()@cert.sys.mjs:51
+destroy()@Session.sys.mjs:239
+deleteSession()@WebDriverBiDi.sys.mjs:140
+stop()@WebDriverBiDi.sys.mjs:228
+observe()@resource://gre/modules/AsyncShutdown.sys.mjs:573
+1697410634726	geckodriver	INFO	Listening on 127.0.0.1:57056
+1697410635208	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57057" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileQ0I2vT"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697410635573	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697410635685	Marionette	INFO	Listening on port 57062
+WebDriver BiDi listening on ws://127.0.0.1:57057
+Read port: 57062
+1697410636320	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57057/devtools/browser/c13240c0-75b1-4dbf-947a-17110cebe1e9
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+1697410660288	Marionette	INFO	Stopped listening on port 57062
+Dynamically enable window occlusion 1
+1697410764488	geckodriver	INFO	Listening on 127.0.0.1:57134
+1697410764971	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57135" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofilewmSzVZ"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697410765294	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697410765408	Marionette	INFO	Listening on port 57140
+WebDriver BiDi listening on ws://127.0.0.1:57135
+Read port: 57140
+1697410765754	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57135/devtools/browser/c8dc80f0-cb29-41e9-9e36-59e4a2482456
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:66516
+
+1697410778677	Marionette	INFO	Stopped listening on port 57140
+Dynamically enable window occlusion 1
+1697411051969	geckodriver	INFO	Listening on 127.0.0.1:57257
+1697411052448	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57258" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileNOHhkp"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697411052781	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697411052895	Marionette	INFO	Listening on port 57264
+WebDriver BiDi listening on ws://127.0.0.1:57258
+Read port: 57264
+1697411053270	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57258/devtools/browser/c5f621da-d39a-4794-8927-c574fcb0ca72
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c, line 509: Script terminated by timeout at:
+aa.nh@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:509:42
+get@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:87
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:412
+
+1697411066998	Marionette	INFO	Stopped listening on port 57264
+Dynamically enable window occlusion 1
+1697411135658	geckodriver	INFO	Listening on 127.0.0.1:57333
+1697411136149	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57334" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileAw7tOn"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697411136479	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697411136601	Marionette	INFO	Listening on port 57339
+WebDriver BiDi listening on ws://127.0.0.1:57334
+Read port: 57339
+1697411136943	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57334/devtools/browser/80c51124-eef5-4eda-9b5b-1ad67155275e
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c, line 370: Script terminated by timeout at:
+Wo@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:370:490
+Sv@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:415:411
+oF/<@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:556:153
+aa.uk/<@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:508:126
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:507:420
+
+1697411149820	Marionette	INFO	Stopped listening on port 57339
+Dynamically enable window occlusion 1
+1697411234466	geckodriver	INFO	Listening on 127.0.0.1:57438
+1697411234943	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57439" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofilemWpqcu"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697411235257	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697411235374	Marionette	INFO	Listening on port 57444
+Read port: 57444
+WebDriver BiDi listening on ws://127.0.0.1:57439
+1697411235445	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57439/devtools/browser/fd54de3a-a6d1-40eb-8327-8a0f5de13b8f
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+1697411246135	Marionette	INFO	Stopped listening on port 57444
+Dynamically enable window occlusion 1
+1697411282956	geckodriver	INFO	Listening on 127.0.0.1:57523
+1697411283424	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57524" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofile3Ekhno"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697411283749	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697411283878	Marionette	INFO	Listening on port 57529
+WebDriver BiDi listening on ws://127.0.0.1:57524
+Read port: 57529
+1697411284237	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57524/devtools/browser/b1d4d806-88ee-4234-9ebe-87128e67385a
+JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+1697411302668	Marionette	INFO	Stopped listening on port 57529
+Dynamically enable window occlusion 1
