@@ -1257,3 +1257,821 @@ DevTools listening on ws://127.0.0.1:57524/devtools/browser/b1d4d806-88ee-4234-9
 JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
 1697411302668	Marionette	INFO	Stopped listening on port 57529
 Dynamically enable window occlusion 1
+1697465299214	geckodriver	INFO	Listening on 127.0.0.1:63994
+1697465299702	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63995" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileW8I2SV"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697465300103	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697465300253	Marionette	INFO	Listening on port 64002
+WebDriver BiDi listening on ws://127.0.0.1:63995
+Read port: 64002
+1697465300711	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63995/devtools/browser/990321b0-af2b-41af-9e7f-6340d46f15b5
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+1697465326319	Marionette	INFO	Stopped listening on port 64002
+Dynamically enable window occlusion 1
+1697465329463	geckodriver	INFO	Listening on 127.0.0.1:64039
+1697465329963	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64040" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofilePHJbGX"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697465330270	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697465330386	Marionette	INFO	Listening on port 64046
+Read port: 64046
+WebDriver BiDi listening on ws://127.0.0.1:64040
+1697465330469	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64040/devtools/browser/7549b1ba-ce65-490f-aadb-dbf8c638125f
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1697465396224	Marionette	INFO	Stopped listening on port 64046
+Dynamically enable window occlusion 1
+1697465434605	geckodriver	INFO	Listening on 127.0.0.1:64115
+1697465435102	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64116" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofile4lBB4y"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697465435450	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697465435568	Marionette	INFO	Listening on port 64121
+WebDriver BiDi listening on ws://127.0.0.1:64116
+Read port: 64121
+1697465435892	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64116/devtools/browser/6bf5428c-efa2-4eab-bb08-c2a8d77563b8
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+1697465448782	Marionette	INFO	Stopped listening on port 64121
+Dynamically enable window occlusion 1
+1697465546390	geckodriver	INFO	Listening on 127.0.0.1:64197
+1697465546873	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64198" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileX80bZz"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697465547181	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697465547298	Marionette	INFO	Listening on port 64203
+WebDriver BiDi listening on ws://127.0.0.1:64198
+Read port: 64203
+1697465547469	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64198/devtools/browser/17346149-0782-4774-bf1c-a910ae4f6ca8
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+1697465854509	Marionette	INFO	Stopped listening on port 64203
+Dynamically enable window occlusion 1
+1697465979457	geckodriver	INFO	Listening on 127.0.0.1:64438
+1697465979962	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64439" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofile0t3bfc"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697465980323	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697465980530	Marionette	INFO	Listening on port 64444
+WebDriver BiDi listening on ws://127.0.0.1:64439
+Read port: 64444
+1697465980907	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64439/devtools/browser/fad82e67-9abd-48f8-9f56-0811855bd049
+1697465987933	Marionette	INFO	Stopped listening on port 64444
+Dynamically enable window occlusion 1
+console.error: (new AbortError("IndexedDB: main/url-classifier-skip-urls list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1697467397551	geckodriver	INFO	Listening on 127.0.0.1:64818
+1697467398062	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64819" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileSh86Qe"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697467398405	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697467398523	Marionette	INFO	Listening on port 64824
+WebDriver BiDi listening on ws://127.0.0.1:64819
+Read port: 64824
+1697467399032	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64819/devtools/browser/d7414c33-f143-4e11-ab6e-80ab6969da88
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+1697467441482	Marionette	INFO	Stopped listening on port 64824
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64863" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofilebTbZMj"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697467426423	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697467426548	Marionette	INFO	Listening on port 64868
+WebDriver BiDi listening on ws://127.0.0.1:64863
+Read port: 64868
+1697467428009	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64863/devtools/browser/a187634d-5b37-4fa9-9127-3065855535a6
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+1697467440298	Marionette	INFO	Stopped listening on port 64868
+Dynamically enable window occlusion 1
+1697467473456	geckodriver	INFO	Listening on 127.0.0.1:64910
+1697467473953	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64911" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileMOu6iR"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697467474293	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697467474408	Marionette	INFO	Listening on port 64916
+WebDriver BiDi listening on ws://127.0.0.1:64911
+Read port: 64916
+1697467474739	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64911/devtools/browser/7c3cc9f8-2660-42b9-8e37-8dfc6c7e3f30
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1697467595708	Marionette	INFO	Stopped listening on port 64916
+Dynamically enable window occlusion 1
+1697467598840	geckodriver	INFO	Listening on 127.0.0.1:64969
+1697467599324	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64970" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofiletxJbsP"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697467599653	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697467599767	Marionette	INFO	Listening on port 64975
+WebDriver BiDi listening on ws://127.0.0.1:64970
+Read port: 64975
+1697467600087	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64970/devtools/browser/c701e917-87f7-4377-ac4c-ab3b9ea0e4f3
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+1697467635514	Marionette	INFO	Stopped listening on port 64975
+Dynamically enable window occlusion 1
+1697467676671	geckodriver	INFO	Listening on 127.0.0.1:65015
+1697467677301	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65016" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofilemPvyYn"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697467677821	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697467677941	Marionette	INFO	Listening on port 65021
+WebDriver BiDi listening on ws://127.0.0.1:65016
+Read port: 65021
+1697467678580	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65016/devtools/browser/37a2e32d-6763-4923-a608-3968737f1ea0
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1697473341511	Marionette	INFO	Stopped listening on port 65021
+Dynamically enable window occlusion 1
+efox.exe" "--marionette" "--remote-debugging-port" "49251" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileJHufj2"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697468797944	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697468798077	Marionette	INFO	Listening on port 49256
+WebDriver BiDi listening on ws://127.0.0.1:49251
+Read port: 49256
+1697468798289	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49251/devtools/browser/9784aff2-80c9-4fb9-b49b-b2a3789345ef
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1697473176130	Marionette	INFO	Stopped listening on port 49256
+Dynamically enable window occlusion 1
+efox.exe" "--marionette" "--remote-debugging-port" "52111" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofiley5orkm"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697469211638	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697469211762	Marionette	INFO	Listening on port 52117
+WebDriver BiDi listening on ws://127.0.0.1:52111
+Read port: 52117
+1697469212102	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52111/devtools/browser/0052a841-f975-400a-8583-531ae3dc07c7
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+1697469225042	Marionette	INFO	Stopped listening on port 52117
+Dynamically enable window occlusion 1
+1697469788916	geckodriver	INFO	Listening on 127.0.0.1:52314
+1697469789407	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52315" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofiletdVeV8"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697469789719	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697469789837	Marionette	INFO	Listening on port 52320
+Read port: 52320
+WebDriver BiDi listening on ws://127.0.0.1:52315
+1697469789904	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52315/devtools/browser/c37d39ed-2d8c-41a1-a24d-4d5c1fc80760
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+1697469853029	Marionette	INFO	Stopped listening on port 52320
+Dynamically enable window occlusion 1
+1697469856089	geckodriver	INFO	Listening on 127.0.0.1:52379
+1697469856596	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52380" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileAoR65g"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697469857102	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697469857228	Marionette	INFO	Listening on port 52385
+WebDriver BiDi listening on ws://127.0.0.1:52380
+Read port: 52385
+1697469857546	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52380/devtools/browser/faa56ad1-d336-4eb9-9122-375a45b05b82
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+1697469970271	Marionette	INFO	Stopped listening on port 52385
+Dynamically enable window occlusion 1
+1697469974458	geckodriver	INFO	Listening on 127.0.0.1:52440
+1697469974959	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52441" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileBJjoOU"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697469975332	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697469975447	Marionette	INFO	Listening on port 52446
+WebDriver BiDi listening on ws://127.0.0.1:52441
+Read port: 52446
+1697469975904	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52441/devtools/browser/0f31034a-d43a-4d4d-b211-728e76e5c924
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1697473335711	Marionette	INFO	Stopped listening on port 52446
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+1697473335789	WebDriver BiDi	ERROR	Failed to stop protocol: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 51"  data: no] Stack trace: allowAllCerts.disable()@cert.sys.mjs:51
+destroy()@Session.sys.mjs:239
+deleteSession()@WebDriverBiDi.sys.mjs:140
+stop()@WebDriverBiDi.sys.mjs:228
+observe()@resource://gre/modules/AsyncShutdown.sys.mjs:573
+1697473652711	geckodriver	INFO	Listening on 127.0.0.1:53094
+1697473653193	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53095" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileEYU9Gv"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697473653611	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697473653728	Marionette	INFO	Listening on port 53101
+WebDriver BiDi listening on ws://127.0.0.1:53095
+Read port: 53101
+1697473654186	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53095/devtools/browser/de4bc4ed-5df2-4e6a-8524-17b0663dcf2e
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 633))
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+1697473687802	Marionette	INFO	Stopped listening on port 53101
+Dynamically enable window occlusion 1
+console.error: (new Error("IndexedDB: main/doh-providers list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+console.error: (new Error("IndexedDB: main/doh-config getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+console.error: (new Error("IndexedDB: main/ms-language-packs getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1697473690876	geckodriver	INFO	Listening on 127.0.0.1:53142
+1697473691359	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53143" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileo5B75x"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697473691677	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697473691799	Marionette	INFO	Listening on port 53148
+WebDriver BiDi listening on ws://127.0.0.1:53143
+Read port: 53148
+1697473692428	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53143/devtools/browser/6c1a46ad-416e-45e8-9583-bc899406272a
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 633))
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2001))
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+1697473705833	Marionette	INFO	Stopped listening on port 53148
+Dynamically enable window occlusion 1
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"PlacesShutdownProgress":5},"filename":"/builds/worker/checkouts/gecko/toolkit/components/places/Database.cpp","lineNumber":463,"stack":""}] Barrier: profile-before-change
+1697473742112	geckodriver	INFO	Listening on 127.0.0.1:53188
+1697473742592	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53189" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileJFyXF5"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697473742944	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697473743080	Marionette	INFO	Listening on port 53194
+WebDriver BiDi listening on ws://127.0.0.1:53189
+Read port: 53194
+1697473743644	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53189/devtools/browser/b70a4c17-6719-4199-b5ad-b32aee39574d
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 633))
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+1697473754740	Marionette	INFO	Stopped listening on port 53194
+Dynamically enable window occlusion 1
+1697473828080	geckodriver	INFO	Listening on 127.0.0.1:53241
+1697473828603	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53242" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileNCWN4i"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697473829000	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697473829163	Marionette	INFO	Listening on port 53248
+Read port: 53248
+WebDriver BiDi listening on ws://127.0.0.1:53242
+1697473829389	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53242/devtools/browser/e07e2cc8-fc4e-4782-b93f-9f1502e0d1a0
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+1697473849964	Marionette	INFO	Stopped listening on port 53248
+Dynamically enable window occlusion 1
+1697474131631	geckodriver	INFO	Listening on 127.0.0.1:53368
+1697474132132	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53369" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofilerHQrkT"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697474132469	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697474132586	Marionette	INFO	Listening on port 53374
+Read port: 53374
+WebDriver BiDi listening on ws://127.0.0.1:53369
+1697474133380	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.sys.mjs: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 757))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+DevTools listening on ws://127.0.0.1:53369/devtools/browser/21ac7481-16b6-494c-b620-4f02f316e130
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 633))
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2001))
+1697474253403	Marionette	INFO	Stopped listening on port 53374
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53424" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofile4L6csy"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697474218505	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697474218620	Marionette	INFO	Listening on port 53429
+Read port: 53429
+WebDriver BiDi listening on ws://127.0.0.1:53424
+1697474219551	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.sys.mjs: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 757))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+DevTools listening on ws://127.0.0.1:53424/devtools/browser/65a14865-e754-4e83-842a-5c097b1309cb
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 633))
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 633))
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+1697474250234	Marionette	INFO	Stopped listening on port 53429
+Dynamically enable window occlusion 1
+console.error: (new AbortError("IndexedDB: main/normandy-recipes getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1697474257254	geckodriver	INFO	Listening on 127.0.0.1:53472
+1697474257855	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53473" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofilesXYOJc"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697474258398	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697474258516	Marionette	INFO	Listening on port 53478
+WebDriver BiDi listening on ws://127.0.0.1:53473
+Read port: 53478
+1697474264029	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53473/devtools/browser/315b7880-3477-4576-af0f-f16d45a8e168
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 633))
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+1697474281823	Marionette	INFO	Stopped listening on port 53478
+Dynamically enable window occlusion 1
+1697474332151	geckodriver	INFO	Listening on 127.0.0.1:53526
+1697474332792	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53527" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileeHnmaH"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697474333127	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697474333244	Marionette	INFO	Listening on port 53533
+WebDriver BiDi listening on ws://127.0.0.1:53527
+Read port: 53533
+1697474334131	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53527/devtools/browser/3b470f25-cdd1-4d7f-8e95-5df2ddcc1f7a
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 633))
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+1697474395162	Marionette	INFO	Stopped listening on port 53533
+Dynamically enable window occlusion 1
+1697474402418	geckodriver	INFO	Listening on 127.0.0.1:53580
+1697474402942	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53581" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileEVUKaE"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697474403674	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697474403791	Marionette	INFO	Listening on port 53587
+WebDriver BiDi listening on ws://127.0.0.1:53581
+Read port: 53587
+Read port: 53587
+Read port: 53587
+1697474409455	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53581/devtools/browser/f1a7e8a6-830b-47c6-b53b-33f144c029ee
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 633))
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+1697474706069	geckodriver	INFO	Listening on 127.0.0.1:53669
+1697474706579	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53670" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileyKLvOb"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697474706931	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697474707060	Marionette	INFO	Listening on port 53675
+WebDriver BiDi listening on ws://127.0.0.1:53670
+Read port: 53675
+1697474709019	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53670/devtools/browser/73a5ce11-d569-45e3-bddb-b59b21348c62
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2001))
+1697474781689	Marionette	INFO	Stopped listening on port 53675
+Dynamically enable window occlusion 1
+1697474785107	geckodriver	INFO	Listening on 127.0.0.1:53725
+1697474785630	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53726" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofilennHB74"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697474785987	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697474786103	Marionette	INFO	Listening on port 53731
+WebDriver BiDi listening on ws://127.0.0.1:53726
+Read port: 53731
+1697474786804	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53726/devtools/browser/fc5c4c58-e797-4c8e-ba61-4051a2c7d332
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+1697474830275	Marionette	INFO	Stopped listening on port 53731
+Dynamically enable window occlusion 1
+1697474832870	geckodriver	INFO	Listening on 127.0.0.1:53771
+1697474833346	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53772" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileGV79O8"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697474833649	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697474833764	Marionette	INFO	Listening on port 53777
+WebDriver BiDi listening on ws://127.0.0.1:53772
+Read port: 53777
+1697474834495	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53772/devtools/browser/7b7f58f2-7cf7-4acb-97ae-15df976fc99a
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 633))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2001))
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+1697474856831	Marionette	INFO	Stopped listening on port 53777
+Dynamically enable window occlusion 1
+1697475021267	geckodriver	INFO	Listening on 127.0.0.1:53835
+1697475021755	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53836" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileliAU6s"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697475022090	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697475022205	Marionette	INFO	Listening on port 53841
+WebDriver BiDi listening on ws://127.0.0.1:53836
+Read port: 53841
+1697475023022	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53836/devtools/browser/72fa5028-a931-4dfa-875a-58fefa2709fa
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 633))
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2001))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 633))
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+1697475051603	Marionette	INFO	Stopped listening on port 53841
+Dynamically enable window occlusion 1
+1697475056351	geckodriver	INFO	Listening on 127.0.0.1:53889
+1697475056939	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53890" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileCO6OJZ"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697475057242	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697475057359	Marionette	INFO	Listening on port 53895
+Read port: 53895
+WebDriver BiDi listening on ws://127.0.0.1:53890
+1697475057421	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53890/devtools/browser/295c7797-2d00-4567-8e8a-6fb5f1e42d75
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1697475111000	Marionette	INFO	Stopped listening on port 53895
+Dynamically enable window occlusion 1
+1697475285443	geckodriver	INFO	Listening on 127.0.0.1:53991
+1697475285939	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53992" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileymu0It"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697475286415	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697475286533	Marionette	INFO	Listening on port 53997
+WebDriver BiDi listening on ws://127.0.0.1:53992
+Read port: 53997
+Read port: 53997
+1697475291778	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+DevTools listening on ws://127.0.0.1:53992/devtools/browser/2401b7b2-c468-4e23-9340-c5d98282534c
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 633))
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+1697475340988	Marionette	INFO	Stopped listening on port 53997
+Dynamically enable window occlusion 1
+1697475507737	geckodriver	INFO	Listening on 127.0.0.1:54060
+1697475508276	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54061" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofilel5MVim"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697475508734	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697475508853	Marionette	INFO	Listening on port 54066
+Read port: 54066
+WebDriver BiDi listening on ws://127.0.0.1:54061
+1697475509669	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54061/devtools/browser/fd98ad3e-53bb-44cd-9c74-9630ac181b82
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+1697475556337	Marionette	INFO	Stopped listening on port 54066
+Dynamically enable window occlusion 1
+1697475619742	geckodriver	INFO	Listening on 127.0.0.1:54134
+1697475620304	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54135" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileXWVprn"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697475620763	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697475620878	Marionette	INFO	Listening on port 54140
+Read port: 54140
+WebDriver BiDi listening on ws://127.0.0.1:54135
+1697475621370	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54135/devtools/browser/fe958ab9-ec5d-4e31-aec3-840bb983ef52
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+1697475734260	Marionette	INFO	Stopped listening on port 54140
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54185" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileFANwn6"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697475686422	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697475686537	Marionette	INFO	Listening on port 54190
+WebDriver BiDi listening on ws://127.0.0.1:54185
+Read port: 54190
+Read port: 54190
+Read port: 54190
+Read port: 54190
+Read port: 54190
+Read port: 54190
+Read port: 54190
+Read port: 54190
+Read port: 54190
+1697475698569	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54185/devtools/browser/a33d6598-ea44-4de2-856e-bce85cea233c
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+1697475729937	Marionette	INFO	Stopped listening on port 54190
+Dynamically enable window occlusion 1
+console.error: (new AbortError("IndexedDB: main/password-rules getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:107:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:907:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:812:38
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:573:17
+
+console.error: (new Error("IndexedDB: main/translations-identification-models getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1697475738268	geckodriver	INFO	Listening on 127.0.0.1:54244
+1697475738905	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54245" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileS4JaAX"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697475739275	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697475739396	Marionette	INFO	Listening on port 54250
+WebDriver BiDi listening on ws://127.0.0.1:54245
+Read port: 54250
+1697475740059	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54245/devtools/browser/b4383caa-8562-4c41-a781-182b416d81e6
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+1697475781925	Marionette	INFO	Stopped listening on port 54250
+Dynamically enable window occlusion 1
+1697475844342	geckodriver	INFO	Listening on 127.0.0.1:54304
+1697475844878	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54305" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileazChyG"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697475845218	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697475845335	Marionette	INFO	Listening on port 54312
+WebDriver BiDi listening on ws://127.0.0.1:54305
+Read port: 54312
+1697475846276	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54305/devtools/browser/dc838f36-22f4-4026-b9e8-0669682cb9b0
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 633))
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2001))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+1697475931153	Marionette	INFO	Stopped listening on port 54312
+Dynamically enable window occlusion 1
+1697476012931	geckodriver	INFO	Listening on 127.0.0.1:54367
+1697476014126	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54368" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileucRiGd"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697476015682	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697476015856	Marionette	INFO	Listening on port 54373
+WebDriver BiDi listening on ws://127.0.0.1:54368
+Read port: 54373
+1697476016399	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54368/devtools/browser/437a091a-13fb-40db-95c2-4d7bf7d6aa13
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 633))
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+1697476053053	Marionette	INFO	Stopped listening on port 54373
+Dynamically enable window occlusion 1
+1697476055990	geckodriver	INFO	Listening on 127.0.0.1:54413
+1697476057626	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54414" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileXSUHCA"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697476058979	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697476059094	Marionette	INFO	Listening on port 54419
+WebDriver BiDi listening on ws://127.0.0.1:54414
+Read port: 54419
+Read port: 54419
+Read port: 54419
+Read port: 54419
+Read port: 54419
+1697476064147	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54414/devtools/browser/c0d23da7-a156-484f-a86e-578260e30b76
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 633))
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2001))
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 633))
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+1697476085704	Marionette	INFO	Stopped listening on port 54419
+Dynamically enable window occlusion 1
+1697476176046	geckodriver	INFO	Listening on 127.0.0.1:54472
+1697476176555	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54473" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofile8NiTC5"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697476176986	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697476177101	Marionette	INFO	Listening on port 54478
+Read port: 54478
+WebDriver BiDi listening on ws://127.0.0.1:54473
+1697476177641	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54473/devtools/browser/bccb4ff3-8e59-4377-846a-bd26e4db7288
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+1697476206730	Marionette	INFO	Stopped listening on port 54478
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/UrlClassifierListManager.sys.mjs, line 720: TypeError: this.tablesData[table] is undefined
+JavaScript error: resource://gre/modules/AddonManager.sys.mjs, line 1284: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1697476209256	geckodriver	INFO	Listening on 127.0.0.1:54518
+1697476209734	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54519" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofilevxqJSM"
+console.error: GPOParser.jsm: 
+  Unable to parse JSON for ExtensionSettings
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697476210056	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697476210180	Marionette	INFO	Listening on port 54526
+WebDriver BiDi listening on ws://127.0.0.1:54519
+Read port: 54526
+1697476210579	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54519/devtools/browser/5da0f90a-7c4c-4118-af6b-ecbdfc8ce7ed
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sistema.hcosta.com.br."
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+JavaScript warning: https://sistema.hcosta.com.br/hcosta/js/funcoes.js?dhm=1696536132, line 326: unreachable code after return statement
+1697476254477	Marionette	INFO	Stopped listening on port 54526
+Dynamically enable window occlusion 1
