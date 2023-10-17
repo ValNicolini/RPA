@@ -20,29 +20,33 @@ data_formatada = data_atual.strftime('%d/%m/%Y')
 
 def teste(x):
      #espera satisfazer as condições
-     return WebDriverWait(navegador, 10).until(EC.presence_of_element_located(('xpath', x)))
+     return WebDriverWait(navegador, 10).until(EC.presence_of_element_located(('css selector', x)))
 
 
 def busca(y):
-     return navegador.find_element('xpath', y)
+     return navegador.find_element('css selector', y)
 
-def tentando(z):
-     return navegador.find_element('css path', z)
 
 
 navegador.get('https://sistema.hcosta.com.br/hcosta/index.php')
 #navegador.maximize_window()
-lista = navegador.find_elements(By.XPATH, '//*[@id="firstname"]')
 
-busca('//*[@id="nome"]').send_keys('silva.valdenir')
-busca('//*[@id="senha"]').send_keys('Nico@123')
-busca('//*[@id="botao_aceitar"]').click()
-tentando('#opcoes > ul:nth-child(5) > li:nth-child(1) > span:nth-child(1)').click()
-busca('/html/body/div[6]/ul[5]/li/ul/li[1]/span').click()
-busca('//*[@id="m_5_8_8_0"]').click()
-busca('//*[@id="data_inicial"]').send_keys(data_formatada)
-busca('//*[@id="data_final"]').send_keys(data_formatada)
-busca('/html/body/form/fieldset/ul/li[11]/button').click()
+
+busca('#nome').send_keys('silva.valdenir')
+
+busca('#senha').send_keys('Nico@123')
+busca('#botao_aceitar').click()
+sleep(5)
+lista = navegador.find_elements(By.CSS_SELECTOR, 'li')
+print(len(lista))
+
+
+# busca('#opcoes > ul:nth-child(5) > li:nth-child(1) > span:nth-child(1)').click()
+# busca('#opcoes > ul:nth-child(5) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > span:nth-child(1)').click()
+# busca('#m_5_8_8_0').click()
+# busca('//*[@id="data_inicial"]').send_keys(data_formatada)
+# busca('//*[@id="data_final"]').send_keys(data_formatada)
+# busca('/html/body/form/fieldset/ul/li[11]/button').click()
 
 
 #busca((lista[1]).send_keys('Val'))
