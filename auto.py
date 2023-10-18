@@ -13,7 +13,13 @@ from datetime import date
 # service = Service(ChromeDriverManager().install())
 # navegador = webdriver.Chrome(service=service, options=chrome_options)
 
+# opcoes = webdriver.FirefoxOptions()
+# opcoes.add_argument("--headless=new")
+
 navegador = webdriver.Firefox()
+navegador.get('https://sistema.hcosta.com.br/hcosta/index.php')
+#navegador.maximize_window()
+
 data_atual = date.today()
 data_formatada = data_atual.strftime('%d/%m/%Y')
 
@@ -27,17 +33,13 @@ def busca(y):
      return navegador.find_element('css selector', y)
 
 
-
-navegador.get('https://sistema.hcosta.com.br/hcosta/index.php')
-#navegador.maximize_window()
-
-
 busca('#nome').send_keys('silva.valdenir')
 
 busca('#senha').send_keys('Nico@123')
 busca('#botao_aceitar').click()
 sleep(5)
-lista = navegador.find_elements(By.CSS_SELECTOR, 'li')
+lista = navegador.find_elements(By.CLASS_NAME, 'opcoes')
+sleep(3)
 print(len(lista))
 
 
