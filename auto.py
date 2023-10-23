@@ -38,7 +38,7 @@ busca('#nome').send_keys('silva.valdenir')
 busca('#senha').send_keys('Nico@123')
 busca('#botao_aceitar').click()
 sleep(5)
-lista = navegador.find_elements(By.CLASS_NAME, 'opcoes')
+lista = navegador.find_elements(By.ID, 'opcoes')
 sleep(3)
 print(len(lista))
 
@@ -59,7 +59,7 @@ print(len(lista))
 
 # sleep(2)
 # navegador.quit()
-
+#pip install ipython
 
 
 
