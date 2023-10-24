@@ -32,7 +32,7 @@ def busca(y):
 
 
 lista = navegador.find_elements(By.ID, 'firstname')
-email = 
+email =
 # sleep(2)
 # print(len(lista))
 
