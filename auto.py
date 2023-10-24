@@ -31,16 +31,22 @@ def busca(y):
      return navegador.find_element('css selector', y)
 
           #LISTAS
-nome = navegador.find_elements(By.ID, 'firstname')
-email = navegador.find_elements(By.ID, 'email')
-fone = navegador.find_elements(By.ID, 'phone')
-# sleep(2)
-# print(len(lista))
 
-busca((nome[1]).send_keys('Python Selenium'))
-busca((email[1]).send_keys('teste_selenium@hotmail.com'))
-busca((fone[1]).send_keys('14 999879249'))
-busca('#_form_4065_ > button:nth-child(11)').click()
+nome = navegador.find_element(By.CSS_SELECTOR, '[name ="firstname"]')
+email = navegador.find_element(By.CSS_SELECTOR, '[name = "email"]')
+fone = navegador.find_element(By.CSS_SELECTOR, '[name = "phone"]')
+enviar = navegador.find_element(By.CSS_SELECTOR, '[class ^= "botao"]')
+
+# email = navegador.find_elements(By.ID, 'email')
+# fone = navegador.find_elements(By.ID, 'phone')
+# sleep(2)
+# print(len(nome))
+nome.send_keys('Teste')
+email.send_keys('teste.@hotmail.com')
+fone.send_keys('14 997303177')
+enviar.click()
+
+
 
 
 
