@@ -1,6 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
+#from selenium.webdriver.common.keys import Keys
 # from webdriver_manager.chrome import ChromeDriverManager
 # from selenium.webdriver.chrome.options import Options
 # from selenium.webdriver.chrome.service import Service
@@ -30,15 +30,17 @@ def teste(x):
 def busca(y):
      return navegador.find_element('css selector', y)
 
-
-lista = navegador.find_elements(By.ID, 'firstname')
-email =
+          #LISTAS
+nome = navegador.find_elements(By.ID, 'firstname')
+email = navegador.find_elements(By.ID, 'email')
+fone = navegador.find_elements(By.ID, 'phone')
 # sleep(2)
 # print(len(lista))
 
-busca((lista[1]).send_keys('Val Nicolini'))
-busca(lista[1]).send_keys(Keys.ENTER)
-busca(lista[1]).send_keys('val_nicolini13@hotmail.com')
+busca((nome[1]).send_keys('Python Selenium'))
+busca((email[1]).send_keys('teste_selenium@hotmail.com'))
+busca((fone[1]).send_keys('14 999879249'))
+busca('#_form_4065_ > button:nth-child(11)').click()
 
 
 
