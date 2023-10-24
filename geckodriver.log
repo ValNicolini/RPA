@@ -8454,3 +8454,17 @@ WebDriver BiDi listening on ws://127.0.0.1:55811
 1698168050098	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 DevTools listening on ws://127.0.0.1:55811/devtools/browser/0dc83501-246e-40c4-95e2-c26337923b60
 JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c, line 519: Script terminated by timeout at:
+aa.uh@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:519:89
+get@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:517:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:517:87
+aa.Ik/c/<@https://www.googletagmanager.com/gtag/js?id=G-8VXCNB69RS&l=dataLayer&cx=c:517:412
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1698168278927	Marionette	INFO	Stopped listening on port 55816
+Dynamically enable window occlusion 1
