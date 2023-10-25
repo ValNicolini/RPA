@@ -2,23 +2,25 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 #from selenium.webdriver.common.keys import Keys
 # from webdriver_manager.chrome import ChromeDriverManager
-# from selenium.webdriver.chrome.options import Options
-# from selenium.webdriver.chrome.service import Service
+from webdriver_manager.firefox import GeckoDriverManager
+from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.chrome.service import Service
 from time import sleep
 
 from selenium.webdriver.support.ui import WebDriverWait #espera até o elemento aparecer
 from selenium.webdriver.support import expected_conditions as EC
 from datetime import date
-# chrome_options = Options()
+
+url = 'https://www.hashtagtreinamentos.com/curso-python'
+opcoes = Options()
+opcoes.add_argument('--headless')
+opcoes = opcoes
+navegador = webdriver.Firefox(options=opcoes)
+navegador.get(url)
 # chrome_options.add_experimental_option("detach", True)
-# service = Service(ChromeDriverManager().install())
-# navegador = webdriver.Chrome(service=service, options=chrome_options)
+# service = Service(GeckoDriverManager().install())
 
-# opcoes = webdriver.FirefoxOptions()
-# opcoes.add_argument("--headless=new")
 
-navegador = webdriver.Firefox()
-navegador.get('https://www.hashtagtreinamentos.com/curso-python')
 #navegador.maximize_window()
 
 
