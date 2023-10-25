@@ -11655,8 +11655,11 @@ Read port: 60258
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
 DevTools listening on ws://127.0.0.1:60253/devtools/browser/032744b0-073d-4b62-8f9e-c40e43b228c1
-1698253639075	geckodriver	INFO	Listening on 127.0.0.1:60271
-1698253639540	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60272" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofilesNXLRU"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+am Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60272" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofilesNXLRU"
 console.error: GPOParser.jsm: 
   Unable to parse JSON for ExtensionSettings
 console.warn: services.settings: Ignoring preference override of remote settings server
@@ -11753,8 +11756,9 @@ oteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
 DevTools listening on ws://127.0.0.1:60591/devtools/browser/bd6a69d1-0925-4f7a-a4dd-33423cbbad24
-1698254194143	geckodriver	INFO	Listening on 127.0.0.1:60675
-1698254194652	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "6067 ... remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileqiAPtM"
+Exiting due to channel error.
+Exiting due to channel error.
+98254194652	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "6067 ... remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileqiAPtM"
 *** You are running in headless mode.
 console.error: GPOParser.jsm: 
   Unable to parse JSON for ExtensionSettings
@@ -11771,7 +11775,8 @@ console.error: ({})
 DevTools listening on ws://127.0.0.1:60676/devtools/browser/2e134bce-03d5-44ed-84df-0b90753a1ddf
 JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
 JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
-1698254445650	geckodriver	INFO	Listening on 127.0.0.1:60788
+Exiting due to channel error.
+Listening on 127.0.0.1:60788
 1698254446147	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "607 ... remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SILVA~1.VAL\\AppData\\Local\\Temp\\rust_mozprofileENENdO"
 *** You are running in headless mode.
 console.error: GPOParser.jsm: 
@@ -11875,3 +11880,5 @@ DevTools listening on ws://127.0.0.1:61133/devtools/browser/f68fded7-3692-4ff8-a
 JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
 JavaScript error: https://www.hashtagtreinamentos.com/wp-content/themes/hashtag/assets/src/carousel/index.js?ver=6.3.2, line 1: SyntaxError: expected expression, got '<'
 JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\SILVA~1.VAL\AppData\Local\Temp\rust_mozprofileejPlhS\bookmarkbackups\bookmarks-2023-10-25.jsonlz4) because it does not exist
+Exiting due to channel error.
+Exiting due to channel error.
