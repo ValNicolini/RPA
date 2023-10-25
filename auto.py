@@ -32,30 +32,30 @@ def busca(y):
 
           #LISTAS
 
-nome = navegador.find_element(By.CSS_SELECTOR, '[name ="firstname"]')
-email = navegador.find_element(By.CSS_SELECTOR, '[name = "email"]')
-fone = navegador.find_element(By.CSS_SELECTOR, '[name = "phone"]')
-enviar = navegador.find_element(By.CSS_SELECTOR, '[class ^= "botao"]')
+nome = navegador.find_elements(By.CSS_SELECTOR, '[name ="firstname"]')
+email = navegador.find_elements(By.CSS_SELECTOR, '[name = "email"]')
+fone = navegador.find_elements(By.CSS_SELECTOR, '[name = "phone"]')
+enviar = navegador.find_elements(By.CSS_SELECTOR, '[class ^= "botao"]')
 
-# email = navegador.find_elements(By.ID, 'email')
-# fone = navegador.find_elements(By.ID, 'phone')
+
+sleep(2)
+print(len(nome))
+nome[1].send_keys('Teste')
+email[1].send_keys('teste.@hotmail.com')
+fone[1].send_keys('14 997303177')
+enviar[1].click()
+navegador.find_element(By.CSS_SELECTOR, '[name = "s"]').send_keys('Testando')
+
+
+
+
+
+
+
+
+
 # sleep(2)
-# print(len(nome))
-nome.send_keys('Teste')
-email.send_keys('teste.@hotmail.com')
-fone.send_keys('14 997303177')
-enviar.click()
-
-
-
-
-
-
-
-
-
-# sleep(2)
-# navegador.quit()
+#navegador.quit()
 #pip install ipython
 
 
