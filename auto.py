@@ -18,35 +18,6 @@ from datetime import date
 
 # url = 'https://www.hashtagtreinamentos.com/curso-python'
 
-url = 'https://sistema.hcosta.com.br/hcosta/index.php'
-opcoes = Options()
-opcoes.add_argument('--headless')
-opcoes = False
-navegador = webdriver.Firefox(options=opcoes)
-navegador.get(url)
-
-
-# waitAbrirSistema.until(EC.number_of_windows_to_be(2))
-# driver.switch_to.window(driver.window_handles[1])
-
-navegador.find_element(By.CSS_SELECTOR, '[name="nome"]').send_keys('silva.valdenir')
-navegador.find_element(By.CSS_SELECTOR, '[name="senha"]').send_keys('Nico@123')
-navegador.find_element(By.CSS_SELECTOR, '[id="botao_aceitar"]').click()
-navegador.get('https://sistema.hcosta.com.br/hcosta/sistema.php')
-WebDriverWait(navegador, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, '#opcoes > ul:nth-child(5) > li:nth-child(1) > span:nth-child(1)')))
-navegador.switch_to.window(navegador.window_handles[1])
-navegador.find_element(By.CSS_SELECTOR, '#opcoes > ul:nth-child(5) > li:nth-child(1) > span:nth-child(1)').click()
-# navegador.find_element(By.CSS_SELECTOR, '#opcoes > ul:nth-child(5) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > span:nth-child(1)').click()
-# navegador.find_element(By.CSS_SELECTOR, '#opcoes > ul:nth-child(5) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > span:nth-child(1)').click()
-# navegador.find_element(By.CSS_SELECTOR, '#data_inicial').send_keys('26/10/2023')
-# navegador.find_element(By.CSS_SELECTOR, '#data_final').send_keys('26/10/2023')
-# navegador.find_element(By.CSS_SELECTOR, '.botao_a_direita').click()
-
-
-
-#navegador.maximize_window()
-
-
 # def teste(x):
 #      #espera satisfazer as condições
 #      return WebDriverWait(navegador, 10).until(EC.presence_of_element_located(('css selector', x)))
@@ -70,31 +41,6 @@ navegador.find_element(By.CSS_SELECTOR, '#opcoes > ul:nth-child(5) > li:nth-chil
 # fone[1].send_keys('14 997303177')
 # enviar[1].click()
 # navegador.find_element(By.CSS_SELECTOR, '[name = "s"]').send_keys('Testando')
-#
-
-# url = 'https://selenium.dunossauro.live/aula_04_b.html'
-# browser = webdriver.Firefox()
-# browser.get(url)
-
-
-# def find_by_text(browser, tag, text):
-#     elementos = browser.find_elements(By.TAG_NAME, tag)
-#     for elemento in elementos:
-#          if elemento.text == text:
-#               return elemento
-#
-#
-# caixas = ['um', 'dois', 'tres', 'quatro']
-# for texto in caixas :
-#      find_by_text(browser, 'div', texto).click()
-#
-# for texto in caixas:
-#      sleep(0.5)
-#      browser.back()
-#
-# for texto in caixas:
-#      sleep(0.5)
-#      browser.forward()
 
 
 
