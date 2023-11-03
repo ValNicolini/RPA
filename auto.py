@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-#from selenium.webdriver.common.keys import Keys
-# from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.common.keys import Keys
+from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.chrome.service import Service
@@ -18,13 +18,13 @@ from datetime import date
 
 
 
-# url = 'https://www.hashtagtreinamentos.com/curso-python'
+url = 'https://www.hashtagtreinamentos.com/curso-python'
 
-# opcoes = Options()
-# opcoes.add_argument('--headless')
-# opcoes = False
-# navegador = webdriver.Firefox(options=opcoes)
-# navegador.get(url)
+opcoes = Options()
+opcoes.add_argument('--headless')
+opcoes = False
+navegador = webdriver.Firefox(options=opcoes)
+navegador.get(url)
 
 # def teste(x):
 #      #espera satisfazer as condições
@@ -33,22 +33,22 @@ from datetime import date
 #
 # def busca(y):
 #      return navegador.find_element('css selector', y)
-#
-#           #LISTAS
-#
-# nome = navegador.find_elements(By.CSS_SELECTOR, '[name ="firstname"]')
-# email = navegador.find_elements(By.CSS_SELECTOR, '[name = "email"]')
-# fone = navegador.find_elements(By.CSS_SELECTOR, '[name = "phone"]')
-# enviar = navegador.find_elements(By.CSS_SELECTOR, '[class ^= "botao"]')
-#
-#
-# sleep(2)
-# print(len(nome))
-# nome[1].send_keys('Teste')
-# email[1].send_keys('teste.@hotmail.com')
-# fone[1].send_keys('14 997303177')
-# enviar[1].click()
-# navegador.find_element(By.CSS_SELECTOR, '[name = "s"]').send_keys('Testando')
+
+          #LISTAS
+
+nome = navegador.find_elements(By.CSS_SELECTOR, '[name ="firstname"]')
+email = navegador.find_elements(By.CSS_SELECTOR, '[name = "email"]')
+fone = navegador.find_elements(By.CSS_SELECTOR, '[name = "phone"]')
+enviar = navegador.find_elements(By.CSS_SELECTOR, '[class ^= "botao"]')
+
+
+sleep(2)
+print(len(nome))
+nome[1].send_keys('Teste')
+email[1].send_keys('teste.@hotmail.com')
+fone[1].send_keys('14 997303177')
+enviar[1].click()
+navegador.find_element(By.CSS_SELECTOR, '[name = "s"]').send_keys('Testando')
 
 
 
