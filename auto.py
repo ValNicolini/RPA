@@ -92,16 +92,3 @@
 # # sleep(2)
 # #navegador.quit()
 # #pip install ipython
-#
-#
-#
-#
-#
-from time import sleep
-
-rafa = 'ENGRAÇADA'
-
-for c in rafa:
-
-    print(c, end='*')
-    sleep(0.5)
