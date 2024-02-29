@@ -1,6 +1,6 @@
 import self
 from playwright.sync_api import sync_playwright
-
+from time import sleep
 
 with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)
@@ -18,14 +18,18 @@ with sync_playwright() as p:
 
         page.wait_for_timeout(10000)
         page.locator('xpath= //*[@id="object-list-wrapper"]/div/div[1]/div[2]/span/div/div[1]/div/div[2]/div/div[1]/div[1]/span/input').click()
+        sleep(0.5)
         for click in range(5):
             page.keyboard.press('ArrowDown')
-            page.mouse.click(223, 462)
+            sleep(1)
+            page.mouse.click(323, 451)
 
-        page.wait_for_timeout(5000)
+
+        # page.wait_for_timeout(5000)
         page.locator('xpath= //*[@id="object-list-wrapper"]/div/div[2]/ul/li[5]/span/button/span[2]').click()
         page.wait_for_timeout(5000)
-        page.locator('xpath= //*[@id="confirm-ok"]/span').click()
+        # page.screenshot(path='Teste.png')
+        # page.locator('xpath= //*[@id="confirm-ok"]/span').click()
 
 
 
