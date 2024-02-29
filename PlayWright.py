@@ -18,31 +18,40 @@ with sync_playwright() as p:
 
         page.wait_for_timeout(10000)
         page.locator('xpath= //*[@id="object-list-wrapper"]/div/div[1]/div[2]/span/div/div[1]/div/div[2]/div/div[1]/div[1]/span/input').click()
-        sleep(0.5)
+        # sleep(5)
         for click in range(5):
-            page.keyboard.press('ArrowDown')
-            sleep(1)
-            page.mouse.click(323, 451)
+            sleep(0.5)
+            # page.mouse.click(325, 490)
+            # sleep(0.5)
+            # page.keyboard.press('ArrowDown')
+
+            current_element = page.query_selector('xpath= //*[@id="object-list-wrapper"]/div/div[1]/div[2]/span/div/div[1]/div/div[2]/div/div[1]/div[1]/span/input')
+
+            # Selecionar o próximo elemento usando XPath
+            next_element = current_element.evaluate('following-sibling::*')
+            sleep(0.5)
+            # Clicar no próximo elemento
+            next_element.click()
+
+
 
 
         # page.wait_for_timeout(5000)
         page.locator('xpath= //*[@id="object-list-wrapper"]/div/div[2]/ul/li[5]/span/button/span[2]').click()
         page.wait_for_timeout(5000)
-        # page.screenshot(path='Teste.png')
-        # page.locator('xpath= //*[@id="confirm-ok"]/span').click()
+        page.screenshot(path='Teste.png')
+        page.locator('xpath= //*[@id="confirm-ok"]/span').click()
 
+        # from mouseinfo import mouseInfo
 
-
-
-
-
+        # mouseInfo()
 
 
         # Esperar pela navegação para verificar se o formulário foi submetido com sucesso
 
 
 
-        self.wait(10000)
+        self.wait(1000)
         browser.close()
 
 
