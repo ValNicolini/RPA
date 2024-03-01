@@ -37,7 +37,6 @@ with sync_playwright() as p:
         page.wait_for_timeout(5000)
         page.locator('xpath= //*[@id="object-list-wrapper"]/div/div[2]/ul/li[5]/span/button/span[2]').click()
         page.wait_for_timeout(5000)
-
         page.locator('xpath= //*[@id="confirm-ok"]/span').click()
 
 
