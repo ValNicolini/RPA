@@ -5,7 +5,7 @@ from playwright.sync_api import sync_playwright
 from time import sleep
 
 with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch(headless= False,slow_mo=50)
         page = browser.new_page()
 
         # Navegar até a página com o formulário
@@ -20,10 +20,11 @@ with sync_playwright() as p:
 
         page.wait_for_timeout(12000)
 
-        for i in range(3):
-           sleep(2)
+        for i in range(100):
+           # sleep(2)
          # Encontrar o segundo checkbox na página
            segundo_checkbox = page.query_selector_all('input[type="checkbox"]')[1]
+
 
           # Marcar o segundo checkbox
            segundo_checkbox.check()
@@ -33,13 +34,12 @@ with sync_playwright() as p:
 
         # Iterar sobre os checkboxes e marcá-los
            for checkbox in checkboxes:
-
                 checkbox.click()
-           sleep(2)
-           page.keyboard.press('PageDown')
-           page.wait_for_timeout(10000)
+
+           # page.keyboard.press('ArrowDown')
+           page.wait_for_timeout(1000)
            page.locator('xpath= //*[@id="object-list-wrapper"]/div/div[2]/ul/li[5]/span/button/span[2]').click()
-           page.wait_for_timeout(2000)
+           page.wait_for_timeout(1000)
            page.click("button[label='Delete']")
            sleep(10)
 

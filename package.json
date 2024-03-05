@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "expect": "^29.7.0"
+  }
+}
