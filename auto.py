@@ -10,6 +10,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 # from selenium.webdriver.firefox.options import Options
 
 from time import sleep
+from datetime import date
+data = date.today()
+br = data.strftime('%d/%m/%Y')
 
 from selenium.webdriver.support.ui import WebDriverWait #espera até o elemento aparecer
 from selenium.webdriver.support import expected_conditions as EC
