@@ -13,8 +13,10 @@ with sync_playwright() as p:
         page.fill("input[name= 'nome']", 'silva.valdenir')
         page.fill("input[name= 'senha']", 'Nico#1307')
         page.click("button[type= 'submit']")
-        page.locator('xpath=/html/body/div[7]/a[1]/img').click()
-
+        sleep(3)
+        page.click("xpath=html/body/div[6]/ul[5]/li/span")
+        # page.click("ul >> li >> xpath= '/html/body/div[6]/ul[5]/li/ul/li[1]/span'")
+        # page.click("span[id='m_5_8_8_0']")
 
         # page.locator("xpath= /html/body/div[6]/ul[5]/li/ul/li[2]/span").click()
         # page.locator('xpath= //*[@id="object-list-wrapper"]/div/div[2]/ul/li[5]/span/button/span[2]').click()
