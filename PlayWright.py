@@ -19,6 +19,7 @@ with sync_playwright() as p:
         page.click("a[href='/buckets/arquivos-importacao/browse']")
 
         page.wait_for_timeout(10000)
+
         x = 50
         for i in range(x):
            # sleep(2)
@@ -41,7 +42,7 @@ with sync_playwright() as p:
            page.locator('xpath= //*[@id="object-list-wrapper"]/div/div[2]/ul/li[5]/span/button/span[2]').click()
            page.wait_for_timeout(100)
            page.click("button[label='Delete']")
-           page.wait_for_timeout(10000)
+           page.wait_for_timeout(7000)
 
 
 
