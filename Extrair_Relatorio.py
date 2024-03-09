@@ -14,7 +14,8 @@ with sync_playwright() as p:
         page.fill("input[name= 'senha']", 'Nico#1307')
         page.click("button[type= 'submit']")
         sleep(3)
-        page.click("xpath=html/body/div[6]/ul[5]/li/span")
+        # page.click('#opcoes > ul > li > span')
+        # page.click("xpath=//div[@id='opcoes']/ul/li/span")
         # page.click("ul >> li >> xpath= '/html/body/div[6]/ul[5]/li/ul/li[1]/span'")
         # page.click("span[id='m_5_8_8_0']")
 

@@ -20,7 +20,7 @@ with sync_playwright() as p:
 
         page.wait_for_timeout(10000)
 
-        x = 50
+        x = 5
         for i in range(x):
            # sleep(2)
            # Encontrar todos os checkboxes a partir do segundo
