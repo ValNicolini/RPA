@@ -4,8 +4,8 @@ from datetime import date
 data = date.today()
 # br = data.strftime('%d/%m/%Y')
 with sync_playwright() as p:
-        browser = p.firefox.launch(headless= False,slow_mo=50)
-        page = browser.new_page()
+        browser = p.firefox.launch(args=["--start-maximised"],headless=False)
+        page = browser.new_page(no_viewport=True)
 
         # Navegar até a página com o formulário
         page.goto('https://sistema.hcosta.com.br/hcosta/')
