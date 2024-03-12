@@ -5,8 +5,8 @@ from playwright.sync_api import sync_playwright
 from time import sleep
 
 with sync_playwright() as p:
-        browser = p.firefox.launch(args=["--start-maximised"], headless=False)
-        page = browser.new_page(no_viewport=True)
+        browser = p.chromium.launch(headless=False) #args=["--start-maximised"],
+        page = browser.new_page() #no_viewport=True
 
 
 
@@ -22,28 +22,46 @@ with sync_playwright() as p:
 
         page.wait_for_timeout(6000)
 
-        x = 1
-        for i in range(x):
-           sleep(2)
-           # Encontrar todos os checkboxes a partir do segundo
-           checkboxes = page.query_selector_all('input[type="checkbox"]')[1:11]
+        # x = 20
+        # for i in range(x):
+        #    sleep(30)
+        #    # Encontrar todos os checkboxes a partir do segundo
+        #    checkboxes = page.query_selector_all('input[type="checkbox"]')[1:11]
 
-
+        # inicio = ("xpath= //*[@id='object-list-wrapper']/div/div[1]/div[2]/span/div/div[1]/div/div[2]/div/div[1]/div[1]/span/input")
         # Iterar sobre os checkboxes e marcá-los
-           for checkbox in checkboxes:
-                checkbox.click()
+        x = 100
+        for t in range(x):
+          y = 10
+          for i in range(y):
+                i+=1
+                page.click(f"xpath= //*[@id='object-list-wrapper']/div/div[1]/div[2]/span/div/div[1]/div/div[2]/div/div[{i}]/div[1]/span/input")
+
+                # page.click("xpath= //*[@id='object-list-wrapper']/div/div[1]/div[2]/span/div/div[1]/div/div[2]/div/div[2]/div[1]/span/input")
+                # page.click("xpath= //*[@id='object-list-wrapper']/div/div[1]/div[2]/span/div/div[1]/div/div[2]/div/div[3]/div[1]/span/input")
+                # page.click("xpath= //*[@id='object-list-wrapper']/div/div[1]/div[2]/span/div/div[1]/div/div[2]/div/div[4]/div[1]/span/input")
+                # page.click("xpath= //*[@id='object-list-wrapper']/div/div[1]/div[2]/span/div/div[1]/div/div[2]/div/div[5]/div[1]/span/input")
+                # page.click("xpath= //*[@id='object-list-wrapper']/div/div[1]/div[2]/span/div/div[1]/div/div[2]/div/div[6]/div[1]/span/input")
+                # page.click("xpath= //*[@id='object-list-wrapper']/div/div[1]/div[2]/span/div/div[1]/div/div[2]/div/div[7]/div[1]/span/input")
+                # page.click("xpath= //*[@id='object-list-wrapper']/div/div[1]/div[2]/span/div/div[1]/div/div[2]/div/div[8]/div[1]/span/input")
+                # page.click("xpath= //*[@id='object-list-wrapper']/div/div[1]/div[2]/span/div/div[1]/div/div[2]/div/div[9]/div[1]/span/input")
+                # page.click("xpath= //*[@id='object-list-wrapper']/div/div[1]/div[2]/span/div/div[1]/div/div[2]/div/div[10]/div[1]/span/input")
+
+
+            # page.keyboard.press('ArrowDown')
+            # sleep(0.5)
 
            # page.keyboard.press('ArrowDown')
-           page.wait_for_timeout(100)
-           page.locator('xpath= //*[@id="object-list-wrapper"]/div/div[2]/ul/li[5]/span/button/span[2]').click()
-           page.wait_for_timeout(1000)
-           page.click("button[label='Delete']")
-           page.wait_for_timeout(7000)
+          page.wait_for_timeout(2000)
+          page.locator('xpath= //*[@id="object-list-wrapper"]/div/div[2]/ul/li[5]/span/button/span[2]').click()
+          page.wait_for_timeout(2000)
+          page.click("button[label='Delete']")
+          page.wait_for_timeout(7000)
 
 
 
         browser.close()
-        print(f'Foram excluídos: {x*len(checkboxes)} arquivos!')
+        print(f'Foram excluídos: {x*y} arquivos!')
 
 
 
