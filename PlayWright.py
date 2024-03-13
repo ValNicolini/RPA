@@ -1,11 +1,15 @@
 # from mouseinfo import mouseInfo
         # mouseInfo()
-import self
+from datetime import datetime
 from playwright.sync_api import sync_playwright
 from time import sleep
 
+data = datetime.now()
+br = data.strftime('%d/%m/%Y')
+hora = data.strftime('%H:%M')
+
 with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False) #args=["--start-maximised"],
+        browser = p.chromium.launch() #args=["--start-maximised"],
         page = browser.new_page() #no_viewport=True
 
 
@@ -30,7 +34,7 @@ with sync_playwright() as p:
 
         # inicio = ("xpath= //*[@id='object-list-wrapper']/div/div[1]/div[2]/span/div/div[1]/div/div[2]/div/div[1]/div[1]/span/input")
         # Iterar sobre os checkboxes e marcá-los
-        x = 5
+        x = 1
         for t in range(x):
           y = 10
           for i in range(y):
@@ -61,7 +65,7 @@ with sync_playwright() as p:
 
 
         browser.close()
-        print(f'Foram excluídos: {x*y} arquivos!')
+        print(f'Hoje {br}\nÁs {hora}\nForam excluídos: {x*y} arquivos!')
 
 
 

@@ -1,16 +1,32 @@
 
-# from playwright.sync_api import sync_playwright
-#
-#
-#
-# with sync_playwright() as p:
-#     browser = p.chromium.launch(headless=False)
-#     page = browser.new_page()
-#
-#     # Navegar até a página com o formulário
-#     page.goto('https://todomvc.com/')
+from playwright.sync_api import sync_playwright
+from time import sleep
 
 
-inicio = '''("xpath= //*[@id='object-list-wrapper']/div/div[1]/div[2]/span/div/div[1]/div/div[2]/div/div[1]/div[1]/span/input")'''
 
-print(inicio[80:100])
+with sync_playwright() as p:
+    browser = p.chromium.launch(headless=False)
+    page = browser.new_page()
+    page.goto('https://todomvc.com/')
+    context = browser.new_context(color_scheme='dark'
+                                   # record_video_dir='Video',
+                                  # viewport={'width':800, 'height': 1000}
+                                  )
+
+    # # Navegar até a página com o formulário
+    # page = context.new_page()
+    # page.goto('https://todomvc.com/')
+    # sleep(3)
+    page.screenshot(path='Foto.png')
+    #
+    # print(page.title())
+    # print(p.devices.keys())
+    # request = p.request.new_context()
+    # response = request.get('https://todomvc.com/')
+    # print(response.status)
+    # print(response.status_text)
+    # print(response.text())
+
+    browser.close()
+
+
