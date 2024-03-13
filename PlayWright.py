@@ -30,7 +30,7 @@ with sync_playwright() as p:
 
         # inicio = ("xpath= //*[@id='object-list-wrapper']/div/div[1]/div[2]/span/div/div[1]/div/div[2]/div/div[1]/div[1]/span/input")
         # Iterar sobre os checkboxes e marcá-los
-        x = 100
+        x = 5
         for t in range(x):
           y = 10
           for i in range(y):
