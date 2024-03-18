@@ -26,7 +26,7 @@ with sync_playwright() as p:
 
         page.wait_for_timeout(6000)
 
-        x = 1
+        x = 50
         for t in range(x):
           y = 10
           for i in range(y):
