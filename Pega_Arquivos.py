@@ -1,35 +1,41 @@
-import shutil
 from winotify import Notification, audio
+from time import sleep
 import os
 from datetime import datetime
 
 data_atual = datetime.now().strftime('%y%m%d')
 
-def listar_arquivos_por_tipo(diretorio, tipo_arquivo):
-    arquivos_do_tipo = []
+
+def listar_arquivos(diretorio):
+    arquivos = []
     for arquivo in os.listdir(diretorio):
-        if arquivo.endswith(tipo_arquivo):
-            arquivos_do_tipo.append(arquivo)
-    return arquivos_do_tipo
+        arquivos.append(arquivo)
+    return arquivos
+
 
 def main():
-    # Diretório da pasta onde os arquivos estão localizados
+    # Local dos arquivos
     diretorio = r'\\172.25.5.25\rvs\inbox'
-    tipo_arquivo = f'{data_atual}0741160000'
 
-    # Listar arquivos do tipo especificado na pasta
-    arquivos_tipo_especificado = listar_arquivos_por_tipo(diretorio, tipo_arquivo)
+    arquivo = data_atual
 
-    if arquivos_tipo_especificado:
-        alerta = Notification(app_id='Volks', title='ATENÇÃO!', msg='Arquivo Volks chegou!', duration='long',
-                             icon=r'C:\xampp\htdocs\GitHub\RPA\images.jpg')
-        alerta.set_audio(audio.LoopingAlarm, loop=False)
-        alerta.add_actions(label="Volks", launch=r"\\172.25.5.25\rvs\inbox")
-        alerta.show()
-        print(tipo_arquivo)
-    else:
-        # Se não houver mais arquivos a serem processados, encerrar a execução
-        return
+    # Loop infinito
+    while True:
+        # Listar arquivos
+        arquivos = listar_arquivos(diretorio)
+        for r in arquivos:
+            if arquivo in r:
+                alerta = Notification(app_id='Volks', title='ATENÇÃO!', msg='Arquivo Volks chegou!', duration='long',
+                                      icon=r'C:\xampp\htdocs\GitHub\RPA\images.jpg')
+                alerta.set_audio(audio.LoopingAlarm, loop=False)
+                alerta.add_actions(label="Volks", launch=r"\\172.25.5.25\rvs\inbox")
+                alerta.show()
+                print(f'Arquivo-> {r}')
+                return  # Parar a execução quando o arquivo for encontrado
+
+        # Aguarda e verifica novamente
+        sleep(3000)
+
 
 if __name__ == "__main__":
     main()

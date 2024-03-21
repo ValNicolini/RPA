@@ -9,8 +9,8 @@ br = data.strftime('%d/%m/%Y')
 hora = data.strftime('%H:%M')
 
 with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False) #args=["--start-maximised"],
-        page = browser.new_page() #no_viewport=True
+        browser = p.chromium.launch(headless=False, args=["--start-maximized"]) #args=["--start-maximised"],
+        page = browser.new_page(no_viewport=True) #no_viewport=True
 
 
 
@@ -28,10 +28,13 @@ with sync_playwright() as p:
 
         x = 50
         for t in range(x):
-          y = 10
+          y = 20
+          contador = 0
           for i in range(y):
                 i+=1
-                page.click(f"xpath= //*[@id='object-list-wrapper']/div/div[1]/div[2]/span/div/div[1]/div/div[2]/div/div[{i}]/div[1]/span/input")
+                seletor = f'''div.ReactVirtualized__Grid__innerScrollContainer div[aria-rowindex="{i}"] input'''
+                page.click(seletor)
+              # f"xpath= //*[@id='object-list-wrapper']/div/div[1]/div[2]/span/div/div[1]/div/div[2]/div/div[{i}]/div[1]/span/input"
 
           page.wait_for_timeout(2000)
           page.locator('xpath= //*[@id="object-list-wrapper"]/div/div[2]/ul/li[5]/span/button/span[2]').click()
