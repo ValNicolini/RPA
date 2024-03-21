@@ -34,7 +34,7 @@ def main():
                 return  # Parar a execução quando o arquivo for encontrado
 
         # Aguarda e verifica novamente
-        sleep(3000)
+        sleep(10)
 
 
 if __name__ == "__main__":
