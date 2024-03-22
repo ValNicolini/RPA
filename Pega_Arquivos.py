@@ -20,21 +20,21 @@ def main():
     arquivo = data_atual
 
     # Loop infinito
-    while True:
+    # while True:
         # Listar arquivos
-        arquivos = listar_arquivos(diretorio)
-        for r in arquivos:
-            if arquivo in r:
-                alerta = Notification(app_id='Volks', title='ATENÇÃO!', msg='Arquivo Volks chegou!', duration='long',
-                                      icon=r'C:\xampp\htdocs\GitHub\RPA\images.jpg')
-                alerta.set_audio(audio.LoopingAlarm, loop=False)
-                alerta.add_actions(label="Volks", launch=r"\\172.25.5.25\rvs\inbox")
-                alerta.show()
-                print(f'Arquivo-> {r}')
-                return  # Parar a execução quando o arquivo for encontrado
+    arquivos = listar_arquivos(diretorio)
+    for r in arquivos:
+        if arquivo in r:
+            alerta = Notification(app_id='Volks', title='ATENÇÃO!', msg='Arquivo Volks chegou!', duration='long',
+                                  icon=r'C:\xampp\htdocs\GitHub\RPA\images.jpg')
+            alerta.set_audio(audio.LoopingAlarm, loop=False)
+            alerta.add_actions(label="Volks", launch=r"\\172.25.5.25\rvs\inbox")
+            alerta.show()
+            print(f'Arquivo-> {r}')
+            return  # Parar a execução quando o arquivo for encontrado
 
-        # Aguarda e verifica novamente
-        sleep(10)
+    # Aguarda e verifica novamente
+    # sleep(10)
 
 
 if __name__ == "__main__":
