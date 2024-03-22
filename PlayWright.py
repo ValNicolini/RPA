@@ -26,24 +26,26 @@ with sync_playwright() as p:
 
         page.wait_for_timeout(6000)
 
-        x = 2
-        for t in range(x):
-          y = 10
-          contador = 0
-          for i in range(y):
-                i+=1
-                seletor = f'''div.ReactVirtualized__Grid__innerScrollContainer div[aria-rowindex="{i}"] input'''
-                page.click(seletor)
+        # x = 2
+        # for t in range(x):
+        #   y = 10
+        x = 50
+        for i in range(x):
+            i+=1
+            sleep(0.1)
+            seletor = f'''div.ReactVirtualized__Grid__innerScrollContainer div[aria-rowindex="{i}"] input'''
+            page.click(seletor)
+            sleep(0.1)
               # f"xpath= //*[@id='object-list-wrapper']/div/div[1]/div[2]/span/div/div[1]/div/div[2]/div/div[{i}]/div[1]/span/input"
 
-          page.wait_for_timeout(2000)
-          page.locator('xpath= //*[@id="object-list-wrapper"]/div/div[2]/ul/li[5]/span/button/span[2]').click()
-          page.wait_for_timeout(2000)
-          page.click("button[label='Delete']")
-          page.wait_for_timeout(7000)
+        page.wait_for_timeout(2000)
+        page.locator('xpath= //*[@id="object-list-wrapper"]/div/div[2]/ul/li[5]/span/button/span[2]').click()
+        page.wait_for_timeout(2000)
+        page.click("button[label='Delete']")
+        page.wait_for_timeout(7000)
 
         browser.close()
-        print(f'Hoje {br}\nÁs {hora}\nForam excluídos: {x*y} arquivos!')
+        print(f'Hoje {br}\nÁs {hora}\nForam excluídos: {x} arquivos!')
 
 
 
