@@ -1,32 +1,32 @@
-
-from playwright.sync_api import sync_playwright
+from selenium import webdriver
+from webdriver_manager.firefox import GeckoDriverManager
+from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.common.keys import Keys
 from time import sleep
+from datetime import datetime
 
+servico = Service(GeckoDriverManager().install())
+navegador = webdriver.Firefox(service=servico)
 
+navegador.get("http://sistema.hcosta.com.br/hcosta/index.php")
+navegador.find_element('xpath', '//*[@id="nome"]').send_keys("silva.valdenir")
+navegador.find_element('xpath', '//*[@id="senha"]').send_keys("Nico#1307")
+navegador.find_element('xpath', '//*[@id="botao_aceitar"]').click()
+navegador.switch_to.window(navegador.window_handles[-1])
+sleep(3)
+navegador.find_element('xpath', '/html/body/div[6]/ul[5]/li/span').click()
+sleep(1)
+navegador.find_element('xpath', '/html/body/div[6]/ul[5]/li/ul/li[1]/span').click()
+sleep(1)
+navegador.find_element('xpath', '//*[@id="m_5_8_8_0"]').click()
+sleep(3)
+navegador.switch_to.frame('conteudo')
+data_atual = datetime.now()
+data_formatada = data_atual.strftime("%d/%m/%Y")
+campo_data_inicio = navegador.find_element('xpath', '//*[@id="data_inicial"]')
+navegador.execute_script("arguments[0].value = arguments[1];", campo_data_inicio, data_formatada)
+campo_data_fim = navegador.find_element('xpath', '//*[@id="data_final"]')
+navegador.execute_script("arguments[0].value = arguments[1];", campo_data_fim, data_formatada)
+navegador.find_element('xpath', '/html/body/form/fieldset/ul/li[11]/button').click()
 
-with sync_playwright() as p:
-    browser = p.chromium.launch(headless=False)
-    page = browser.new_page()
-    page.goto('https://todomvc.com/')
-    context = browser.new_context(color_scheme='dark'
-                                   # record_video_dir='Video',
-                                  # viewport={'width':800, 'height': 1000}
-                                  )
-
-    # # Navegar até a página com o formulário
-    # page = context.new_page()
-    # page.goto('https://todomvc.com/')
-    # sleep(3)
-    page.screenshot(path='Foto.png')
-    #
-    # print(page.title())
-    # print(p.devices.keys())
-    # request = p.request.new_context()
-    # response = request.get('https://todomvc.com/')
-    # print(response.status)
-    # print(response.status_text)
-    # print(response.text())
-
-    browser.close()
-
-
+sleep(4)
