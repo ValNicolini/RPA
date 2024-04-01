@@ -3,6 +3,7 @@ from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.firefox.service import Service
 from time import sleep
 from datetime import datetime
+from twilio.rest import Client
 
 servico = Service(GeckoDriverManager().install())
 navegador = webdriver.Firefox(service=servico)
