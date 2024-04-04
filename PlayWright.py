@@ -9,7 +9,7 @@ br = data.strftime('%d/%m/%Y')
 hora = data.strftime('%H:%M')
 
 with sync_playwright() as p:
-        browser = p.chromium.launch() #args=["--start-maximised"],
+        browser = p.chromium.launch(headless=False) #args=["--start-maximised"],
         page = browser.new_page(no_viewport=True) #no_viewport=True
 
 
@@ -26,7 +26,7 @@ with sync_playwright() as p:
 
         page.wait_for_timeout(6000)
 
-        x = 1000
+        x = 100
         for i in range(x):
             i+=1
             sleep(0.1)
