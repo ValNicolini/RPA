@@ -1,19 +1,20 @@
 
-# from mouseinfo import mouseInfo
-#
-# mouseInfo()
 
-from playwright.sync_api import sync_playwright
+def teste():
+    print('Teste')
+def nome():
+    print('Val')
 
-
-
-with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False) #args=["--start-maximised"]
-        page = browser.new_page() #no_viewport=True
+def numero():
+    print(4)
 
 
+def main():
+    numero()
+    nome()
+    teste()
 
-        # Navegar até a página com o formulário
-        page.goto('https://donnagusta.onpedido.com.br/')
 
-        page.wait_for_timeout(2000)
+
+if __name__ == '__main__':
+    main()
