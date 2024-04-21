@@ -3,17 +3,24 @@
 
 opcao = int(input('Digite um número: '))
 
-match opcao:
-    case 1:
-        print('Digitou 1')
-    case 2:
-        print('Digitou 2')
-    case 3:
-        print('Digitou 3')
-    case 4:
-        print('Digitou 4')
-    case _:
-        print('Sair')
+
+
+if opcao%2 == 0:
+    print('Par')
+else:
+    print('Ímpar')
+
+# match opcao:
+#     case 1:
+#         print('Digitou 1')
+#     case 2:
+#         print('Digitou 2')
+#     case 3:
+#         print('Digitou 3')
+#     case 4:
+#         print('Digitou 4')
+#     case _:
+#         print('Sair')
 
 
 
