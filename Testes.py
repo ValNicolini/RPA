@@ -1,14 +1,20 @@
+restaurantes = [{'Nome':'Pizza','Categoria':'Pizzaria', 'Ativo':False},
+                {'Nome':'Tomate', 'Categoria':'Legumes', 'Ativo':True},
+                {'Nome':'Arroz', 'Categoria':'Grãos', 'Ativo':False}]
 
 
 
-opcao = int(input('Digite um número: '))
+print(restaurantes[1]['Categoria'])
 
 
-
-if opcao%2 == 0:
-    print('Par')
-else:
-    print('Ímpar')
+# opcao = int(input('Digite um número: '))
+#
+#
+#
+# if opcao%2 == 0:
+#     print('Par')
+# else:
+#     print('Ímpar')
 
 # match opcao:
 #     case 1:

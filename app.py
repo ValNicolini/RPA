@@ -1,6 +1,9 @@
 import os
 
-restaurantes = ['Pizza', 'Tomate', 'Arroz']
+restaurantes = [{'Nome':'Pizza','Categoria':'Pizzaria', 'Ativo':False},
+                {'Nome':'Tomate', 'Categoria':'Legumes', 'Ativo':True},
+                {'Nome':'Arroz', 'Categoria':'Grãos', 'Ativo':False}]
+
 
 def exibir_nome_do_programa():
     print("""NICOLINI
@@ -30,7 +33,9 @@ def opcao_invalida():
 def cadastrar_novo_restaurante():
    exibir_sub_menu('Cadastro de novos restaurantes:')
    nome_restaurante = input('Nome do restaurante: ')
-   restaurantes.append(nome_restaurante)
+   nome_categoria = input(f'Digite a categoria do restaurante {nome_restaurante}: ')
+   dados_restaurante = {'Nome': nome_restaurante, 'Categoria': nome_categoria, 'Ativo':False}
+   restaurantes.append(dados_restaurante)
    print(f'O restaurante {nome_restaurante} foi add com sucesso!')
    voltar_menu_principal()
 
@@ -38,6 +43,10 @@ def listar_restaurantes():
     exibir_sub_menu('Listando os restaurantes:')
     for restaurante in restaurantes:
         print(restaurante)
+        nome_restaurante = restaurante['Nome']
+        nome_categoria = restaurante['Categoria']
+        estado = restaurante['Ativo']
+        print(f'{nome_restaurante}, {nome_categoria}, {estado}')
     voltar_menu_principal()
 def escolher_opcao():
     try:
