@@ -1,10 +1,13 @@
 class Restaurante:
-    Nome = ''
-    Categoria = ''
-    Ativo = False
+    def __init__(self, nome, categoria):
+        self.nome = nome
+        self.categoria = categoria
+        self.ativo = False
 
-teste = Restaurante()
-novo = Restaurante()
+    def __str__(self):
+        return f'{self.nome} | {self.categoria} | {self.ativo}'
 
+teste = Restaurante('Cantina', 'italiana')
+novo = Restaurante('Novo', 'Francesa')
 restaurantes = [teste, novo]
-print(restaurantes)
+print(f'{novo}\n{teste}')
