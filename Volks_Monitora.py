@@ -18,7 +18,6 @@ def listar_arquivos(diretorio):
 def caminho():
         # Local dos arquivos
         diretorio = r'\\172.25.5.25\rvs\inbox'
-
         arquivo = data_atual
 
             # Listar arquivos
