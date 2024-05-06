@@ -17,7 +17,7 @@ def capturar_nprocesso(xml_path):
     return resultados
 
 # Exemplo de uso
-caminho_do_xml = r'C:\xampp\htdocs\GitHub\Extrator_url\ADVOCACIAHCOSTA - (120)_8_.xml'
+caminho_do_xml = r'C:\xampp\htdocs\GitHub\RPA\ADVOCACIAHCOSTA - (250)_3.xml'
 resultados = capturar_nprocesso(caminho_do_xml)
 
 # Imprime os resultados capturados
