@@ -29,10 +29,10 @@ with sync_playwright() as p:
         x = 1000
         for i in range(x):
             i+=1
-
+            sleep(0.1)
             seletor = f'''div.ReactVirtualized__Grid__innerScrollContainer div[aria-rowindex="{i}"] input'''
             page.click(seletor)
-
+            sleep(0.1)
         # f"xpath= //*[@id='object-list-wrapper']/div/div[1]/div[2]/span/div/div[1]/div/div[2]/div/div[{i}]/div[1]/span/input"
 
         page.wait_for_timeout(2000)
