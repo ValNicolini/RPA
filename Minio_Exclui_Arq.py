@@ -9,7 +9,7 @@ br = data.strftime('%d/%m/%Y')
 hora = data.strftime('%H:%M')
 
 with sync_playwright() as p:
-        browser = p.chromium.launch()#(headless=False) #args=["--start-maximised"]
+        browser = p.chromium.launch(headless=False)#(headless=False) #args=["--start-maximised"]
         page = browser.new_page() #no_viewport=True
 
 
