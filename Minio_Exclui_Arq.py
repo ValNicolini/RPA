@@ -4,9 +4,7 @@ from datetime import datetime
 from playwright.sync_api import sync_playwright
 from time import sleep
 
-data = datetime.now()
-br = data.strftime('%d/%m/%Y')
-hora = data.strftime('%H:%M')
+
 
 with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)#(headless=False) #args=["--start-maximised"]
@@ -38,10 +36,14 @@ with sync_playwright() as p:
         page.wait_for_timeout(2000)
         page.locator('xpath= //*[@id="object-list-wrapper"]/div/div[2]/ul/li[5]/span/button/span[2]').click()
         page.wait_for_timeout(2000)
-        page.click("button[label='Delete']")
+        page.click("#confirm-ok")
         page.wait_for_timeout(7000)
 
+        data = datetime.now()
+        br = data.strftime('%d/%m/%Y')
+        hora = data.strftime('%H:%M')
         browser.close()
+
         print(f'Hoje {br}\nÁs {hora}\nForam excluídos: {x} arquivos!')
 
 
