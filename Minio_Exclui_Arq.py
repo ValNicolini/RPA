@@ -24,7 +24,7 @@ with sync_playwright() as p:
 
         page.wait_for_timeout(6000)
 
-        x = 2000
+        x = 1000
         for i in range(x):
             i+=1
             sleep(0.1)
